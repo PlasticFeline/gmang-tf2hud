@@ -1,7 +1,7 @@
 #summary Screenshots of the HUD with cropping to prevent excessive bandwidth and page space usage.
 
 =Introduction=
-Click for full-screen. Magenta text is generally indicator for last-damage-dealt.
+Click for full-screen. Magenta text is generally indicator for last-damage-dealt. Non-cropped version can be found [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsFull here].
 
 ==Menus==
 First is main menu, second is team menu, third is class menu. Models are animated and hotkeys work.
