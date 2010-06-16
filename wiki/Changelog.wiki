@@ -1,0 +1,50 @@
+#summary Patch history of the HUD.
+
+=Introduction=
+Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
+
+==Beta Version==
+===Beta 08 (2010 June 16)===
+ * Added new main menu (see Settings for function customization)
+ * Added non-TFC game icon
+ * Added full payload and payload race support with tweaked visuals.
+ * Provided tournament spectator health cross file swap
+ * Revised bonk/cola bar (yellow notches are 1s each and have clientscheme overrides)
+ * Fixed KOTH panel highlight glitch
+ * ~~Increased size of ubercharge text~~ (forgot to include, will be in next update)
+ * Made consistency and optimization fixes
+
+===Beta 07 (2010 June 11)===
+ * Edited clientscheme to be compatible with latest update.
+ * Made minor optimization/consistency changes.
+ * Added custom quickswitch panel.
+
+===Beta 06 (2010 May 27)===
+ * Corrected issue with TF2 update.
+ * Revised disguise panel for better placement and usability.
+The original Beta 06 accidentally had the PlayerClass image visible by default instead of hidden. This was fixed (and was the only change) in 06b.
+
+===Beta 05 (2010 May 23)===
+Major, sweeping update; complete replacement of */resource/* and */scripts/* recommended.
+ * Converted color setup to scheme properties and added overrides (see Settings).
+ * Mitigated grey/color health bar option to an override instead of a swap (removed extra hudplayerhealth files).
+ * Added Common overrides for some simple options.
+ * Set class icon visibility to hidden by default.
+ * Spaced health and ammo further out (can be set to old default with file swap).
+ * Made other slight spacing adjustments.
+ * Changed the method used for player health positioning (hopefully more resolution-neutral).
+ * Cleaned out hires and lores lines.
+
+===Beta 04 (2010 May 20)===
+ * Added bleed icon from TF2 update. (Minor, hotfix update.)
+
+===Beta 03 (2010 May 20)===
+ * Added team color tint to health bar outline (can be disabled, see Settings).
+ * Added option to hide class image (see Settings).
+ * Adjusted spacing on class selection screen for better usability.
+
+===Beta 02 (2010 May 19)===
+ * Fixed very minor placement issue with disguise info panel.
+
+===Beta 01 (2010 May 18)===
+ * Initial public release.
