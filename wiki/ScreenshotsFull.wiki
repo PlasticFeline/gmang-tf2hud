@@ -1,4 +1,4 @@
-#summary Screenshots of the HUD with cropping to prevent excessive bandwidth and page space usage.
+#summary Screenshots of the HUD, 1440x900, all on one page.
 
 =Introduction=
 Magenta text is generally indicator for last-damage-dealt. Cropped version can be found [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsCropped here].
