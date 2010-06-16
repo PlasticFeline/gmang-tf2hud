@@ -1,0 +1,85 @@
+#summary Screenshots of the HUD with cropping to prevent excessive bandwidth and page space usage.
+
+=Introduction=
+Magenta text is generally indicator for last-damage-dealt. Cropped version can be found [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsCropped here].
+
+==Menus==
+First is main menu, second is team menu, third is class menu. Models are animated and hotkeys work.
+
+http://img576.imageshack.us/img576/2128/gmanghudscreenmainmenuf.png
+
+http://img697.imageshack.us/img697/1326/gmanghudscreenteamsfull.png
+
+http://img541.imageshack.us/img541/8195/gmanghudscreenclassmenu.png
+
+==Scoreboards==
+First scoreboard is minmode 1, second scoreboard is minmode 0. Bottom is SourceTV spectator screen.
+
+http://img8.imageshack.us/img8/3989/gmanghudscreenminmodefu.png
+
+http://img443.imageshack.us/img443/7673/gmanghudscreenmaxmodefu.png
+
+http://img214.imageshack.us/img214/6626/gmanghudscreenspectatef.png
+
+==Scout==
+The health and ammo appears that way for all classes. Bonk Energy Drink and Crit-A-Cola have color zones to indicate when the item's effect will wear off. Green = effect active, red = effect expired.
+
+http://img689.imageshack.us/img689/3976/gmanghudscreennewbonkfu.png
+
+==Soldier==
+Shows basic health, ammo, and ctf layouts.
+
+[http://img571.imageshack.us/img571/8388/gmanghudscreensoldierfu.png
+
+==Demoman==
+Top is regular loadout, bottom is sword+shield loadout. Chargin' Targe charge meter notches indicate crit status: past orange notches is minicrit, past red notches is crit. Yellow text is decapitated heads.
+
+http://img210.imageshack.us/img210/3041/gmanghudscreenstickiesf.png
+
+http://img413.imageshack.us/img413/5951/gmanghudscreentargefull.png
+
+==Engineer==
+Engineer HUD is more condensed and detailed (currently no build/destroy menus).
+
+http://img19.imageshack.us/img19/7940/gmanghudscreenengy2full.png
+
+http://img188.imageshack.us/img188/9752/gmanghudscreenengy1full.png
+
+==Medic==
+Top is uncharged Uber. Bottom is activated Uber. Also shows targetID's.
+
+http://img522.imageshack.us/img522/2428/gmanghudscreenmedicfull.png
+
+http://img688.imageshack.us/img688/2315/gmanghudscreenuberfull.png
+
+===Sniper=
+Huntsman chargeup has indicator notches for headshot damage values. Orange zone = 175+ damage on headshot, green = 200+, purple = 260+, grey = 300+.
+
+http://img706.imageshack.us/img706/4201/gmanghudscreensniperful.png
+
+==Spy==
+Spy donning a disguise. Cloak meter is ItemEffectMeter, which means it's shared with things like Sandman, Jarate, and Buff Banner charge. Disguise portrait is only visible as depicted if class images are turned on.
+
+http://img248.imageshack.us/img248/3457/gmanghudscreenspynewful.png
+
+==Pyro/Heavy==
+Pyro and Heavy are basically identical. Also shows flag hold screen.
+
+http://img704.imageshack.us/img704/2888/gmanghudscreenheavyfull.png
+
+==Quickswitch==
+Can be set to Valve default by deleting *ItemQuickSwitch.res*.
+
+http://img62.imageshack.us/img62/3429/gmanghudscreenquickswit.png
+
+==Options==
+The HUD using a variety of Common Overrides and File Swaps (see Settings).
+
+http://img522.imageshack.us/img522/2838/gmanghudscreenoptionsfu.png
+
+==Objectives==
+First is payload race, second is stopwatch.
+
+http://img337.imageshack.us/img337/374/gmanghudscreenpayloadra.png
+
+http://img248.imageshack.us/img248/3457/gmanghudscreenspynewful.png
