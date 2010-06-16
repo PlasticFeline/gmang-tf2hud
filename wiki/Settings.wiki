@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Instructions for customizing the HUD.
 
 =Introduction=
 There are a variety of ways the HUD can be easily customized to suit your preferences.
