@@ -42,7 +42,7 @@ If you prefer playing pubs to matches, replace the last line with `ToggleInterfa
 ==ClientScheme Overrides==
  _See also: http://code.google.com/p/gmang-tf2hud/wiki/OverridesList _
 
-_When using Overrides, it's very important that you frequently make backup copies of your ClientScheme file, as it's replaced frequently in updates (both HUD and TF2), and typos as small as forgetting a quotation mark can break your game interface entirely._
+*When using Overrides, it's very important that you frequently make backup copies of your ClientScheme file, as it's replaced frequently in updates (both HUD and TF2), and typos as small as forgetting a quotation mark can break your game interface entirely.*
 
 If there are any color choices you don't like, or if there are areas of color (such as progress bar notches) you want to hide/show, you can manipulate these elements by adding Overrides to your ClientScheme file.
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
