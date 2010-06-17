@@ -42,7 +42,7 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
     * `Void`: The area of color placed behind the actual meter, which becomes visible when the meter is emptied.
     * `Bar`: Lines/areas that outline the meter space itself.
   * Text...
-      * `Outline`: Manual outlining of text created by copying the text field eight times behind the text, spacing them out on unit in each direction (NW N NE E SE S SW W), and making them dark.
+      * `Outline`: Manual outlining of text created by copying the text field eight times behind the text, spacing them out one unit in each direction (NW N NE E SE S SW W), and making them dark.
       * `OutlineCorrect`: Optional extra outlining done provided when outline spacing looks wrong.
       * `Shadow`: Shadow copy of a text field placed slightly southeast of original text. Usually not noticeable on manually outlined text unless placed out further than 1 unit.
 
