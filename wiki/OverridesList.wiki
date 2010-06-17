@@ -1,4 +1,4 @@
-#summary Listing of all ClientScheme Overrides.
+#summary Lists to aid clienscheme override editing.
 
 = Introduction =
 
@@ -9,6 +9,55 @@ For instructions on applying Overrides, see [http://code.google.com/p/gmang-tf2h
 = Override List =
 Information about each override is written after slashes (`//`) on the same line.
 
+== Naming Conventions ==
+Descriptions for Preoverrides will be written on a per-request basis, as most of them can be understood by context and Conventions, which follow.
+
+===Keywords===
+  * `AmmoClip`: Ammo currently loaded in the weapon.
+  * `AmmoReserve`: Ammo carried but not loaded.
+  * `Bonk`: Scout's Bonk Energy Drink/Crit-A-Cola.
+  * `Bow` or `BowCharge`: Huntsman.
+  * `Building`: Engineer's buildings' status display.
+  * `CTF`: Capture-the-flag game mode.
+  * `DamageText`: Damage values/combattext.
+  * `EngyMetal`: Engineer's metal count.
+  * `Heads`: Eyelander heads.
+  * `ItemEffectMeter`: Meter used for cloak, buff banner, jarate, sandman.
+  * `Killboard`: The kill/domination/revenge/capture notifications board displayed to all players.
+  * `Killer`: Freeze cam panel.
+  * `Player`: Actual player (self/you).
+  * `QS`: Loadout quickswitch panel.
+  * `SB`: Scoreboard.
+  * `SBMain`: Background area on the scoreboard.
+  * `SpecHP`: Health meter shown when looking at team mates.
+  * `Sticky`: Demoman's stickybomb.
+  * `Team`: Team selection menu.
+  * `TournySpec`: Panels shown when spectating a tournament game.
+  * `TournySpecHP`: Health meter on `TournySpec`
+  * `Ubercharge`: Medic uber/kritz meter and text.
+  * `UberchargeFull`: Colors used at full uber/kritz.
+
+===Preoverride Conventions===
+  * Progress/Charge Meters...
+    * `Notch`: the slashes used to indicate progress/usage of bars that fill up and empty
+      * `NotchF`: A notch that goes in front of the charge meter, usually somewhat transparent, and usually accompanied by a NotchB.
+      * `NotchB`: A notch that goes behind the charge meter, usually not transparent, and usually accompanied by a NotchF.
+    * `Void`: The area of color placed behind the actual meter, which becomes visible when the meter is emptied.
+    * `Bar`: Lines/areas that outline the meter space itself.
+  * Text...
+      * `Outline`: Manual outlining of text created by copying the text field eight times behind the text, spacing them out on unit in each direction (NW N NE E SE S SW W), and making them dark.
+      * `OutlineCorrect`: Optional extra outlining done provided when outline spacing looks wrong.
+      * Shadow copy of a text field placed slightly southeast of original text. Usually not noticeable on manually outlined text unless placed out further than 1 unit.
+
+===Definition Conventions===
+  * Color...
+    * `ColorCOLOR` (such as `ColorRed`): A plain color, possibly referenced by numerous Preoverrides. All colors use full saturation/brightness where applicable, with no transparencies.
+    * `ColorXXXCOLOR` (such as `Color064Red`): A plain color that's darker than usual, possibly referenced by numerous Preoverrides. The number describes the color value; for example, `Color064Green` would be `0 64 0 255`.
+    * `ColorCOLORYYY` (such as `ColorRed128`): A plain color given transparency, possibly referenced by numerous Preoverrides. The number describes the opacity; for example, `ColorYellow128` would be `255 255 0 128`.
+    * `ColorXXXCOLORYYY` (such as `Color032Grey128`): A darkened plain color with transparency, possibly referenced by numerous Preoverrides. The first number describes color value, the second number describes opacity; for example, `Color128Grey160` would be `128 128 128 160`.
+  * `Default`: A unique color. The phrase "default" refers to the color I chose by default, not necessarily a Valve default.
+
+
 == Common Overrides ==
 {{{
 		//Yellow Damage Text
@@ -16,26 +65,26 @@ Information about each override is written after slashes (`//`) on the same line
 		"DamageTextLast"			"ColorYellow" //Color of latest damage dealt written in HUD
 
 		//Hide Targe Indicators
-		"TargeVoid"				"NotVisible" //Background seen where Targe meter is empty
-		"TargeNotchF"				"NotVisible" //Notch for Targe minicrit that overlaps meter
-		"TargeNotchB"				"NotVisible" //Notch for Targe minicrit that goes behind meter
-		"TargeStickyNotchF"			"NotVisible" //Notch for Targe crit range that overlaps meter
-		"TargeStickyNotchB"			"NotVisible" //Notch for Targe crit range that goes behind meter
-		"StickyVoid"				"ProgressVoid" //Background seen where Sticky meter is empty
+		"TargeVoid"				"NotVisible"
+		"TargeNotchF"				"NotVisible" //Notch for Targe minicrit
+		"TargeNotchB"				"NotVisible" //Notch for Targe minicrit
+		"TargeStickyNotchF"			"NotVisible" //Notch for Targe crit range
+		"TargeStickyNotchB"			"NotVisible" //Notch for Targe crit range
+		"StickyVoid"				"ProgressVoid" //Normally unnecessary due to persistence of TargeVoid
 
 		//Increase Sticky Notches
-		"StickyNotchExtraF"			"TargeNotchFDefault" //Extra notches for Sticky that overlap meter
-		"StickyNotchExtraB"			"TargeNotchBDefault" //Extra notches for Sticky that go behind meter
+		"StickyNotchExtraF"			"TargeNotchFDefault" //Extra notches
+		"StickyNotchExtraB"			"TargeNotchBDefault" //Extra notches
 
 		//Hide Team Color From PlayerHP
 		"PlayerHPGrey"				"HPGreyDefault" //Plain color that overlaps HP box edges
 
 		//Hide PlayerHP Outline
-		"PlayerHPOutline"			"NotVisible" //Manual outline around self HP
+		"PlayerHPOutline"			"NotVisible"
 
 		//Correct Outline Spacing
-		"PlayerHPOutlineCorrect"		"OutlineDefault" //Extra manual outlining on the bottom portion of self HP
-		"AmmoClipOutlineCorrect"		"OutlineDefault" //Extra manual outlining on bottom portion of ammo
+		"PlayerHPOutlineCorrect"		"OutlineDefault"
+		"AmmoClipOutlineCorrect"		"OutlineDefault"
 		
 		//Hide Bonk Active Notches
 		"BonkActiveNotchL"			"NotVisible" //Long notches on active section of bonk meter
@@ -43,11 +92,230 @@ Information about each override is written after slashes (`//`) on the same line
 }}}
 
 == PreOverrides ==
+Using a program like Notepad++, you can search the entirety of your /ui/ folder to find instances of these Preoverrides. If after doing this and reading the full Override Conventions list, you are still confused, leave a comment and I'll add a description to the override.
 {{{
+		"ProgressVoid"				"ProgressVoidDefault"
 
-}}}
+		"ClassNum"					"ColorWhite128"
+		"FullTeamsText"				"ColorRed"
+		"GameMenuTitle"				"ColorWhite200"
+		"GameMenuDarkness"			"ColorBlack180"
+		"HighlanderText"			"HighlanderTextDefault"
+		"TeamBluePanel"				"TeamBluePanelDefault"
+		"TeamBlueText"				"TeamBlueTextDefault"
+		"TeamButton"				"ColorWhite"
+		"TeamCount"					"ColorWhite"
+		"TeamRandomPanel"			"TeamRandomPanelDefault"
+		"TeamRandomText"			"TeamRandomTextDefault"
+		"TeamRedPanel"				"TeamRedPanelDefault"
+		"TeamRedText"				"TeamRedTextDefault"
+		"TeamSpecPanel"				"TeamSpecPanelDefault"
+		"TeamSpecText"				"TeamSpecTextDefault"
 
-== Color Definitions ==
-{{{
+		"PlayerHPBar"				"ColorBlack"
+		"PlayerHPColor"				"HealthGreen"
+		"PlayerHPGrey"				"NotVisible"
+		"PlayerHPOutline"			"OutlineDefault"
+		"PlayerHPOutlineCorrect"	"NotVisible"
+		"PlayerHPNotchF"			"ColorBlack128"
+		"PlayerHPNotchB"			"ColorWhite192"
+		"PlayerHPShadow"			"ShadowDefault"
+		"PlayerHPVoid"				"HPVoidDefault"
 
+		"AmmoClipColor"				"ColorWhite"
+		"AmmoClipOutline"			"OutlineDefault"
+		"AmmoClipOutlineCorrect"	"NotVisible"
+		"AmmoClipShadow"			"ShadowDefault"
+		"AmmoReserveColor"			"Color200Grey"
+		"AmmoReserveShadow"			"ShadowDefault"
+
+		"DamageTextHit"				"ColorMagenta"
+		"DamageTextLast"			"ColorMagenta"
+		"DamageTextLastOutline"		"OutlineDefault"
+		"DamageTextLastShadow"		"ShadowDefault"
+
+		"KillBoardBlack"			"KillBoardBlackDefault"
+		"KillBoardBlue"				"KillBoardBlueDefault"
+		"KillBoardRed"				"KillBoardRedDefault"
+		"KillBoardSelfText"			"ColorWhite"
+		"KillBoardWhite"			"KillBoardWhiteDefault"
+
+		"SBBlueBG"					"SBBlueBGDefault"
+		"SBBlueTeamName"			"SBBlueTeamNameDefault"
+		"SBBlueTeamScore"			"HUDBlueTeamSolid"
+		"SBDeaths"					"SBDeathsDefault"
+		"SBInfoBG"					"ColorBlack096"
+		"SBKDOutline"				"OutlineDefault"
+		"SBKDShadow"				"ShadowDefault"
+		"SBKDSymbol"				"TransparentBlack"
+		"SBKills"					"ColorGreen"
+		"SBMainBG"					"ColorBlack112"
+		"SBMainBG2"					"ColorBlack112"
+		"SBMainBG2MM"				"SBMainBG2MMDefault"
+		"SBMainBGMM"				"SBMainBGMMDefault"
+		"SBMap"						"SBMapDefault"
+		"SBRedBG"					"SBRedBGDefault"
+		"SBRedTeamName"				"SBRedTeamNameDefault"
+		"SBRedTeamScore"			"HUDRedTeamSolid"
+		"SBServerBG"				"ColorBlack064"
+		"SBServerName"				"TanLight"
+		"SBServerTime"				"ColorWhite"
+		"SBSpectators"				"TanLight"
+		"SBStats"					"ColorWhite128"
+		"SBStatsBG"					"ColorBlack064"
+		"SBTeamNameOutline"			"OutlineDefault"
+		"SBTeamNameShadow"			"ShadowDefault"
+		"SBTeamPlayerCount"			"ColorWhite"
+		"SBTeamScoreOutline"		"OutlineDefault"
+		"SBTeamScoreShadow"			"ShadowDefault"
+		"SBVerticalLine"			"ColorBlack064"
+		"SBWaiters"					"TanLight"
+
+		"KillerHPColor"				"HealthGreen"
+		"KillerHPExtraBar"			"ColorBlack096"
+		"KillerHPGrey"				"HPGreyDefault"
+		"KillerHPOutline"			"OutlineDefault"
+		"KillerHPOutlineCorrect"	"NotVisible"
+		"KillerHPShadow"			"ShadowDefault"
+		"KillerHPVoid"				"HPVoidDefault"
+
+		"QSClassText"				"ColorWhite128"
+		"QSNegative"				"QSNegativeDefault"
+		"QSSlotText"				"ColorWhite200"
+
+		"TimerGain"					"ColorGreen"
+
+		"CTFPlayingTo"				"TanLight"
+		"CTFPlayingToPanel"			"CTFPlayingToBGDefault"
+		"CTFScoreBlue"				"HUDBlueTeamSolid"
+		"CTFScoreOutline"			"OutlineDefault"
+		"CTFScoreRed"				"HUDRedTeamSolid"
+		"CTFScoreShadow"			"ShadowDefault"
+
+		"StopWatchDescription"		"Color210Grey128"
+		"StopWatchPoints"			"ColorStopWatchTint"
+		"StopWatchTime"				"ColorWhite"
+
+		"ItemEffectMeterBar"		"ColorBlack"
+		"ItemEffectMeterNotchB"		"ColorWhite"
+		"ItemEffectMeterNotchBB"	"ColorBlack"
+		"ItemEffectMeterNotchF"		"ColorBlack143"
+		"ItemEffectMeterVoid"		"ProgressVoidDefault"
+
+		"SpecTopBar"				"SpecTopBarDefault"
+
+		"SpecHPColor"				"HealthGreen"
+		"SpecHPExtraBar"			"ColorBlack096"
+		"SpecHPGrey"				"HPGreyDefault"
+		"SpecHPOutline"				"OutlineDefault"
+		"SpecHPShadow"				"ShadowDefault"
+		"SpecHPVoid"				"HPVoidDefault"
+
+		"TournySpecClassBG"			"ColorBlack096"
+		"TournySpecRespawn"			"TournySpecRespawnDefault"
+		"TournySpecRespawnOutline"	"OutlineDefault"
+		"TournySpecRespawnShadow"	"ShadowDefault"
+		"TournySpecTopBar"			"TournySpecTopBarDefault"
+		"TournySpecUberCharge"		"ColorYellow"
+		"TournySpecUberOutline"		"OutlineDefault"
+		"TournySpecUberShadow"		"ShadowDefault"
+
+		"TournySpecHPColor"			"HealthGreen"
+		"TournySpecHPExtraBar"		"ColorBlack096"
+		"TournySpecHPGrey"			"HPGreyDefault"
+		"TournySpecHPNM"			"TournySpecHPNMDefault"
+		"TournySpecHPOutline"		"OutlineDefault"
+		"TournySpecHPShadow"		"ShadowDefault"
+		"TournySpecHPVoid"			"Color015Grey"
+
+		"BonkActiveMid"				"ColorGreen"
+		"BonkActiveBot"				"Color064Green"
+		"BonkActiveNotchL"			"ColorYellow128"
+		"BonkActiveNotchS"			"ColorYellow"
+		"BonkActiveTop"				"Color064Green"
+		"BonkBlackness"				"ColorBlack"
+		"BonkEffectThreshB"			"ColorRed"
+		"BonkEffectThreshF"			"ColorRed128"
+		"BonkInactiveBot"			"Color064Red"
+		"BonkInactiveMid"			"ColorRed150"
+		"BonkInactiveNotch"			"ColorBlack"
+		"BonkInactiveTop"			"Color064Red"
+
+		"StickyBar"					"ColorBlack"
+		"StickyCount"				"ColorWhite"
+		"StickyCountOutline"		"OutlineDefault"
+		"StickyCountShadow"			"ShadowDefault"
+		"StickyNone"				"Color200Grey128"
+		"StickyNoneShadow"			"Color042Grey192"
+		"StickyNotchB"				"StickyNotchBDefault"
+		"StickyNotchExtraB"			"NotVisible"
+		"StickyNotchExtraF"			"NotVisible"
+		"StickyNotchF"				"StickyNotchFDefault"
+		"StickyVoid"				"NotVisible"
+
+		"HeadsColor"				"ColorYellow"
+		"HeadsOutline"				"OutlineDefault"
+		"HeadsShadow"				"ShadowDefault"
+
+		"TargeBar"					"ColorBlack"
+		"TargeNotchB"				"TargeNotchBDefault"
+		"TargeNotchF"				"TargeNotchFDefault"
+		"TargeStickyNotchB"			"StickyNotchBDefault"
+		"TargeStickyNotchF"			"StickyNotchFDefault"
+		"TargeVoid"					"ProgressVoidDefault"
+
+		"BuildingBar"				"ColorBlack"
+		"BuildingBuildText"			"ColorRed"
+		"BuildingBuiltPanel"		"ColorBlack080"
+		"BuildingHPBG"				"ColorBlack192"
+		"BuildingIconColor"			"ColorWhite"
+		"BuildingIconLv1"			"BuildingIconLv1Default"
+		"BuildingIconLv2"			"BuildingIconLv2Default"
+		"BuildingIconLv3"			"BuildingIconLv3Default"
+		"BuildingIconPanel"			"ColorBlack040"
+		"BuildingNotBuilt"			"BuildingNotBuiltDefault"
+		"BuildingNotchB"			"ColorWhite"
+		"BuildingNotchBB"			"ColorBlack"
+		"BuildingNotchF"			"ColorBlack143"
+		"BuildingRecharge"			"ColorYellow"
+		"BuildingVoid"				"ProgressVoidDefault"
+		"BuildingUpgradeShadow"		"ShadowDefault"
+		"SapperPanel"				"ColorBlack064"
+		"UpgradeColor"				"MetalColor"
+		
+		"EngyMetalCount"			"MetalColor"
+		"EngyMetalGain"				"ColorGreen"
+		"EngyMetalLoss"				"ColorRed"
+		"EngyMetalOutline"			"OutlineDefault"
+		"EngyMetalShadow"			"ShadowDefault"
+
+		"BlutsaugerGain"			"ColorGreen"
+
+		"UberchargeBar"				"ColorBlack"
+		"UberchargeFullMeter1"		"ColorGreen"
+		"UberchargeFullMeter2"		"UberchargeFull"
+		"UberchargeFullText1"		"ColorGreen"
+		"UberchargeFullText2"		"UberchargeFull"
+		"UberchargeNotchB"			"ColorWhite"
+		"UberchargeNotchBB"			"ColorBlack"
+		"UberchargeNotchF"			"ColorBlack143"
+		"UberchargeOutline"			"OutlineDefault"
+		"UberchargeShadow"			"ShadowDefault"
+		"UberchargeText"			"ColorYellow"
+		"UberchargeVoid"			"ProgressVoidDefault"
+
+		"BowCharge175Notch"			"BowCharge175NotchDefault"
+		"BowCharge175Area"			"BowCharge175AreaDefault"
+		"BowCharge200Notch"			"BowCharge200NotchDefault"
+		"BowCharge200Area"			"BowCharge200AreaDefault"
+		"BowCharge260Notch"			"BowCharge260NotchDefault"
+		"BowCharge260Area"			"BowCharge260AreaDefault"
+		"BowCharge300Notch"			"BowCharge300NotchDefault"
+		"BowCharge300Area"			"BowCharge300AreaDefault"
+		"BowChargeBar"				"ColorBlack"
+		"BowChargeVoid"				"ProgressVoidDefault"
+		"BowNotchB"					"BowNotchBDefault"
+		"BowNotchF"					"BowNotchFDefault"
+
+		"DisguisePanelBG"			"DisguisePanelDefault"
 }}}
