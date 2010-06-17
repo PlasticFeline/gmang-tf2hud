@@ -6,13 +6,10 @@
 
 For instructions on applying Overrides, see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings].
 
-= Override List =
-Information about each override is written after slashes (`//`) on the same line.
-
-== Naming Conventions ==
+= Naming Conventions =
 Descriptions for Preoverrides will be written on a per-request basis, as most of them can be understood by context and Conventions, which follow.
 
-===Keywords===
+==Keywords==
   * `AmmoClip`: Ammo currently loaded in the weapon.
   * `AmmoReserve`: Ammo carried but not loaded.
   * `Bonk`: Scout's Bonk Energy Drink/Crit-A-Cola.
@@ -37,7 +34,7 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
   * `Ubercharge`: Medic uber/kritz meter and text.
   * `UberchargeFull`: Colors used at full uber/kritz.
 
-===Preoverride Conventions===
+==Preoverride Conventions==
   * Progress/Charge Meters...
     * `Notch`: the slashes used to indicate progress/usage of bars that fill up and empty
       * `NotchF`: A notch that goes in front of the charge meter, usually somewhat transparent, and usually accompanied by a NotchB.
@@ -47,9 +44,9 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
   * Text...
       * `Outline`: Manual outlining of text created by copying the text field eight times behind the text, spacing them out on unit in each direction (NW N NE E SE S SW W), and making them dark.
       * `OutlineCorrect`: Optional extra outlining done provided when outline spacing looks wrong.
-      * Shadow copy of a text field placed slightly southeast of original text. Usually not noticeable on manually outlined text unless placed out further than 1 unit.
+      * `Shadow`: Shadow copy of a text field placed slightly southeast of original text. Usually not noticeable on manually outlined text unless placed out further than 1 unit.
 
-===Definition Conventions===
+==Definition Conventions==
   * Color...
     * `ColorCOLOR` (such as `ColorRed`): A plain color, possibly referenced by numerous Preoverrides. All colors use full saturation/brightness where applicable, with no transparencies.
     * `ColorXXXCOLOR` (such as `Color064Red`): A plain color that's darker than usual, possibly referenced by numerous Preoverrides. The number describes the color value; for example, `Color064Green` would be `0 64 0 255`.
@@ -57,6 +54,8 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
     * `ColorXXXCOLORYYY` (such as `Color032Grey128`): A darkened plain color with transparency, possibly referenced by numerous Preoverrides. The first number describes color value, the second number describes opacity; for example, `Color128Grey160` would be `128 128 128 160`.
   * `Default`: A unique color. The phrase "default" refers to the color I chose by default, not necessarily a Valve default.
 
+= Override List =
+Information about each override is written after slashes (`//`) on the same line.
 
 == Common Overrides ==
 {{{
