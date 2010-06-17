@@ -40,7 +40,7 @@ ToggleInterfaceMatch
 If you prefer playing pubs to matches, replace the last line with `ToggleInterfacePub`.
 
 ==ClientScheme Overrides==
- _See also: http://code.google.com/p/gmang-tf2hud/wiki/OverridesList _
+ _See also: [http://code.google.com/p/gmang-tf2hud/wiki/OverridesList OverridesList]_
 
 *When using Overrides, it's very important that you frequently make backup copies of your ClientScheme file, as it's replaced frequently in updates (both HUD and TF2), and typos as small as forgetting a quotation mark can break your game interface entirely.*
 
@@ -100,7 +100,7 @@ If you prefer the health and ammo elements closer to the bottom-middle of the sc
 The reverse can be done by using the file called *HudAmmoWeapons_FAR.res* instead of *HudAmmoWeapons_CLOSE.res* and *HudPlayerHealth_FAR.res* instead of *HudPlayerHealth_CLOSE.res*.
 
 ==File Removal==
- _See also: http://code.google.com/p/gmang-tf2hud/wiki/RemovableFilesList _
+ _See also: [http://code.google.com/p/gmang-tf2hud/wiki/RemovableFilesList RemoveableFilesList] _
 
 Some HUD elements can be safely returned to their Valve defaults by simply deleting or renaming their associated files. If, for example, you dislik the custom main menu, you can set it to Valve default by renaming *gamemenu.res* in tf/resource/ and *MainMenuOverride.res* in tf/resource/ui. The best way to experiment with this is to simply rename files instead of deleting them, ensuring that you always have backups.
 
