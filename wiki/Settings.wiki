@@ -75,7 +75,10 @@ Manual overrides should be created under the `//USER-DEFINED (save backups!)` li
 }}}
 
 ==File Swaps==
-By manipulating files, you can choose whether or not the personal class image is displayed. The class images are off by default; instructions for turning them on follow:
+By manipulating files, you can choose whether or not the personal class image is displayed.
+
+===Class Image===
+The class images are off by default; instructions for turning them on follow:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *HudPlayerClass.res*.
  # Copy the file named *HudPlayerClass_SHOW.res* and paste it into the same folder. This should create a file called *HudPlayerClass_SHOW - Copy.res*.
@@ -83,6 +86,7 @@ By manipulating files, you can choose whether or not the personal class image is
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 The reverse can be done by using the file called *HudPlayerClass_HIDE.res* instead of *HudPlayerClass_SHOW.res*.
 
+===Tournament Spectator Health===
 Because of the method used for formatting rectangular health icons, the tournament spectator HUD sometimes displays awkwardly stretched death icons. To avoid this, you can swap out the rectangular health icon on the tournament spectator panels for cross health icons. Instructions for doing this follow:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *SpectatorTournamentGUIHealth.res*.
@@ -91,6 +95,7 @@ Because of the method used for formatting rectangular health icons, the tourname
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 The reverse can be done by using the file called *SpectatorTournamentGUIHealth_BOX.res* instead of *SpectatorTournamentGUIHealth_CROSS.res*.
 
+===Player Status Spacing===
 If you prefer the health and ammo elements closer to the bottom-middle of the screen (as with older public beta versions), follow these steps:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the files named *HudAmmoWeapons.res* and *HudPlayerHealth.res*.
