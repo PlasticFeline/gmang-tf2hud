@@ -1,0 +1,53 @@
+#summary Listing of all ClientScheme Overrides.
+
+= Introduction =
+
+*When using Overrides, it's very important that you frequently make backup copies of your ClientScheme file, as it's replaced frequently in updates (both HUD and TF2), and typos as small as forgetting a quotation mark can break your game interface entirely.*
+
+For instructions on applying Overrides, see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings].
+
+= Override List =
+Information about each override is written after slashes (`//`) on the same line.
+
+== Common Overrides ==
+{{{
+		//Yellow Damage Text
+		"DamageTextHit"				"ColorYellow" //Color of damage values that appear above hits
+		"DamageTextLast"			"ColorYellow" //Color of latest damage dealt written in HUD
+
+		//Hide Targe Indicators
+		"TargeVoid"				"NotVisible" //Background seen where Targe meter is empty
+		"TargeNotchF"				"NotVisible" //Notch for Targe minicrit that overlaps meter
+		"TargeNotchB"				"NotVisible" //Notch for Targe minicrit that goes behind meter
+		"TargeStickyNotchF"			"NotVisible" //Notch for Targe crit range that overlaps meter
+		"TargeStickyNotchB"			"NotVisible" //Notch for Targe crit range that goes behind meter
+		"StickyVoid"				"ProgressVoid" //Background seen where Sticky meter is empty
+
+		//Increase Sticky Notches
+		"StickyNotchExtraF"			"TargeNotchFDefault" //Extra notches for Sticky that overlap meter
+		"StickyNotchExtraB"			"TargeNotchBDefault" //Extra notches for Sticky that go behind meter
+
+		//Hide Team Color From PlayerHP
+		"PlayerHPGrey"				"HPGreyDefault" //Plain color that overlaps HP box edges
+
+		//Hide PlayerHP Outline
+		"PlayerHPOutline"			"NotVisible" //Manual outline around self HP
+
+		//Correct Outline Spacing
+		"PlayerHPOutlineCorrect"		"OutlineDefault" //Extra manual outlining on the bottom portion of self HP
+		"AmmoClipOutlineCorrect"		"OutlineDefault" //Extra manual outlining on bottom portion of ammo
+		
+		//Hide Bonk Active Notches
+		"BonkActiveNotchL"			"NotVisible" //Long notches on active section of bonk meter
+		"BonkActiveNotchS"			"NotVisible" //Short notches on active section of bonk meter
+}}}
+
+== PreOverrides ==
+{{{
+
+}}}
+
+== Color Definitions ==
+{{{
+
+}}}
