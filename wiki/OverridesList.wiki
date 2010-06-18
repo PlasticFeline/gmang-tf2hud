@@ -88,6 +88,9 @@ Information about each override is written after slashes (`//`) on the same line
 		//Hide Bonk Active Notches
 		"BonkActiveNotchL"			"NotVisible" //Long notches on active section of bonk meter
 		"BonkActiveNotchS"			"NotVisible" //Short notches on active section of bonk meter
+
+		//Ubercharge Under Crosshair
+		//"UberchargeTextTiny"			"ColorWhite" //Small Ubercharge % placed near crosshair
 }}}
 
 == PreOverrides ==
@@ -303,6 +306,7 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"UberchargeOutline"			"OutlineDefault"
 		"UberchargeShadow"			"ShadowDefault"
 		"UberchargeText"			"ColorYellow"
+		"UberchargeTextTiny"			"ColorYellow"
 		"UberchargeVoid"			"ProgressVoidDefault"
 
 		"BowCharge175Notch"			"BowCharge175NotchDefault"
