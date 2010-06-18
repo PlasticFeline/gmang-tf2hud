@@ -113,6 +113,8 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 
 		"PlayerHPBar"				"ColorBlack"
 		"PlayerHPColor"				"HealthGreen"
+		"PlayerHPColorHigh"			"HealthHigh"
+		"PlayerHPColorLow"			"HealthLow"
 		"PlayerHPGrey"				"NotVisible"
 		"PlayerHPOutline"			"OutlineDefault"
 		"PlayerHPOutlineCorrect"	"NotVisible"
