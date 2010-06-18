@@ -90,7 +90,7 @@ Information about each override is written after slashes (`//`) on the same line
 		"BonkActiveNotchS"			"NotVisible" //Short notches on active section of bonk meter
 
 		//Ubercharge Under Crosshair
-		//"UberchargeTextTiny"			"ColorWhite" //Small Ubercharge % placed near crosshair
+		"UberchargeTextTiny"			"ColorWhite" //Small Ubercharge % placed near crosshair
 }}}
 
 == PreOverrides ==
