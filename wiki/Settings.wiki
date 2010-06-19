@@ -65,7 +65,7 @@ and turning then into:
 		"DamageTextHit"				"ColorYellow"
 		"DamageTextLast"				"ColorYellow"
 }}}
-If a line does not have quotes, you should not be removing any `//`'s from it.
+If a line does not have quotes, you should not be removing any `//`'s from it. This override, among others, can be seen in [http://img682.imageshack.us/img682/7105/hudscreenoverridefull.png this screenshot].
 
 Manual overrides should be created under the `//USER-DEFINED (save backups!)` line. This should only be done by users with a solid understanding of how TF2 HUD's work. To find a list of properties that can be given overrides, use Ctrl+F to search for the section called `//G-Mang HUD PreOverrides`. Copy and paste lines from this section into your User-Defined section (Cutting or Deleting things from the PreOverrides is discouraged) and edit the second string in the new lines. The following is an example custom override that turns the Ubercharge glow color from bright green to bright red:
 {{{
@@ -80,7 +80,7 @@ Manual overrides should be created under the `//USER-DEFINED (save backups!)` li
 By manipulating files, you can choose to switch to the cross-style health image in some places. See screenshots for examples.
 
 ===Player Health Shape===
-Some players may prefer cross-shaped health, as shipped originally with the game. This can be implemented with a simple file swap as follows:
+Some players may prefer cross-shaped health, as shipped originally with the game . This can be implemented with a simple file swap (seen in [http://img693.imageshack.us/img693/5921/hudscreenswapfull.png this screenshot] as follows:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_CROSS.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_CROSS - Copy.res*.
@@ -89,7 +89,7 @@ Some players may prefer cross-shaped health, as shipped originally with the game
 The reverse can be done by using the file called *HudPlayerHealth_BOX.res* instead of *HudPlayerHealth_CROSS.res*.
 
 ===Tournament Spectator Health===
-Because of the method used for formatting rectangular health icons, the tournament spectator HUD sometimes displays awkwardly stretched death icons. To avoid this, you can swap out the rectangular health icon on the tournament spectator panels for cross health icons. Instructions for doing this follow:
+Because of the method used for formatting rectangular health icons, the tournament spectator HUD sometimes displays awkwardly stretched death icons. To avoid this, you can swap out the rectangular health icon on the tournament spectator panels for cross health icons (seen in [http://img195.imageshack.us/img195/6963/hudscreenmatchcrossfull.png this screenshot]. Instructions for doing this follow:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *SpectatorTournamentGUIHealth.res*.
  # Copy the file named *SpectatorTournamentGUIHealth_CROSS.res* and paste it into the same folder. This should create a file called *SpectatorTournamentGUIHealth_CROSS - Copy.res*.
