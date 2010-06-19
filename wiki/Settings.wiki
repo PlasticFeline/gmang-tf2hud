@@ -100,6 +100,6 @@ The reverse can be done by using the file called *SpectatorTournamentGUIHealth_B
 ==File Removal==
  _See also: [http://code.google.com/p/gmang-tf2hud/wiki/RemovableFilesList RemoveableFilesList] _
 
-Some HUD elements can be safely returned to their Valve defaults by simply deleting or renaming their associated files. If, for example, you dislik the custom main menu, you can set it to Valve default by renaming *gamemenu.res* in tf/resource/ and *MainMenuOverride.res* in tf/resource/ui. The best way to experiment with this is to simply rename files instead of deleting them, ensuring that you always have backups.
+Some HUD elements can be safely returned to their Valve defaults by simply deleting or renaming their associated files. If, for example, you dislike the custom main menu, you can set it to Valve default by renaming *gamemenu.res* in tf/resource/ and *MainMenuOverride.res* in tf/resource/ui. The best way to experiment with this is to simply rename files instead of deleting them, ensuring that you always have backups.
 
 The custom game icon can be removed by simply deleting *game.ico* in tf/resource/.
