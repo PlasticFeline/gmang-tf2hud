@@ -1,0 +1,12 @@
+#summary Explanation of the closed captioning system.
+
+= Introduction =
+
+Closed captions need to be enabled in your Team Fortress 2 settings (`closecaption "1"`). Currently, only English is supported. Once the captions are finalized (meaning the HUD comes out of beta), the the source will be released with the HUD.
+
+= Colors =
+Color-coding is used to indicate source of sound (generally representing a class). These colors are...
+
+
+= Events and Symbols =
+To reduce space and time usage, the HUD uses symbols and short keyphrases to convey sound meanings. The messages used are...
