@@ -8,7 +8,61 @@ Closed captions need to be enabled in your Team Fortress 2 settings (`closecapti
 
 = Colors =
 Color-coding is used to indicate source of sound (generally representing a class). These colors are...
-
+ * <font color="ffa0ff">Possible Uber Cover</font>
+ * <font color="fa64fa">Full Uber Declaration</font>
+ * <font color="ff00ff">Ubercharge Activation</font>
+ * <font color="00ffff">Scout</font>
+ * <font color="72d746">Soldier</font>
+ * <font color="ff8000">Pyro</font>
+ * <font color="a35b40">Demoman</font>
+ * <font color="fbaf87">Heavy</font>
+ * <font color="ffff00">Engineer</font>
+ * <font color="ff0060">Medic</font>
+ * <font color="b9b9b9">Sniper</font>
+ * <font color="a500ff">Spy</font>
 
 = Messages =
 To reduce space and time usage, the HUD uses symbols and short keyphrases to convey sound meanings. The messages used are...
+
+General:
+ * ☼ BURNING ☼ : Class is on fire, IE "Fire, fire!"
+ * ♫ CALLING ♫ : Class calling for medic heals, IE "Medic!"
+ * ♥ HEALED ♥ : Class recently healed, IE "Thanks, Medic!"
+ * Ξ READY Ξ : Class requesting that a medic pop uber, IE "Activate Ubercharge!"
+ * « TELEPORTED « : Class recently exited a teleporter, IE "Thanks for the teleporter!"
+
+Medic Only:
+ * “ COVER ” : Medic making a vocalization (possible Uber cover)
+ * *% CHARGED %* : Medic declaring full charge, IE "I am fully charged!"
+ * *Ω ÜBER Ω* : Uber/Kritz popped
+ * × HIT × : Medic taking damage
+
+Scout Only:
+ * *≈ DRINK USED ≈* : Scout recently drank Bonk or Cola (usually comes out mid-effect)
+ * ~ DODGE ~ : Scout currently/recently avoided damage while under Bonk effect
+ * *= TIRED =* : Bonk/Cola effect recently expired
+ * ♂ SANDMAN ♂ : Sandman user in the area
+
+Soldier Only:
+ * ♯ BUGLE ♯ : Soldier _might have_ recently used Buff Banner
+
+Heavy Only:
+ * *○ EATING ○* : Heavy has started eating Sandvich or Chocolate
+ * ☺ EATEN ☺ : Heavy recently finished eating Sandvich
+
+Engineer Only:
+ * ¥ DISPENSER ¥ : Dispenser placed
+ * £ SENTRY £ : Sentry gun placed
+ * ¢ TELEPORTER ¢ : Teleporter recently placed
+ * *§ SAPPED TELE §* : Teleporter being sapped
+ * *§ SAPPED DISPR §* : Dispenser being sapped
+ * *§ SAPPED SENTRY §* : Sentry gun being sapped
+ * *▼ DISPR DOWN ▼* : Dispenser down
+ * *▼ SENTRY DOWN ▼* : Sentry gun down
+ * *▼ TELE DOWN ▼* : Teleporter down
+
+Sniper Only:
+ * ¡ JARATE ¡ : Jarate thrown
+
+Spy Only:
+ * ¡ PISSED ¡ : Spy hit by Jarate
