@@ -44,6 +44,8 @@ If you prefer playing pubs to matches, replace the last line with `ToggleInterfa
 
 *When using Overrides, it's very important that you frequently make backup copies of your ClientScheme file, as it's replaced frequently in updates (both HUD and TF2), and typos as small as forgetting a quotation mark can break your game interface entirely.*
 
+ClientScheme Overrides require program restart to take effect.
+
 If there are any color choices you don't like, or if there are areas of color (such as progress bar notches) you want to hide/show, you can manipulate these elements by adding Overrides to your ClientScheme file.
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
@@ -75,7 +77,7 @@ Manual overrides should be created under the `//USER-DEFINED (save backups!)` li
 }}}
 
 ==File Swaps==
-By manipulating files, you can choose whether or not the personal class image is displayed. See screenshots for examples.
+By manipulating files, you can choose to switch to the cross-style health image in some places. See screenshots for examples.
 
 ===Player Health Shape===
 Some players prefer cross-shaped health, as shipped originally with the game. This can be implemented with a simple file swap as follows:
