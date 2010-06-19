@@ -1,0 +1,22 @@
+#summary List of HUD files that can be removed to return elements to Valve defaults.
+
+= Introduction =
+
+Instead of deleting files, it's recommended that you simply rename them.
+
+= Listing by Element =
+ * *Ally Info Panel:* \resource\ui\TargetID.res
+ * *Animations, Hud:* \scripts\HudAnimations_tf.txt
+ * *Building Panels:* \resource\ui\hud_obj_BUILDING.res (BUILDING being dispenser, sapper, sentrygun, tele_entrance, or tele_exit)
+ * *Captions:* \resource\ui\closecaption_english.dat
+ * *Class Screen:* \resource\ui\Classmenu_blu.res and Classmenu_red.res
+ * *Combat Text:* \resource\ui\HudDamageAccount.res
+ * *Icon, Game:* \resource\game.ico 
+ * *Kill Cam Freeze Panel:* \resource\ui\FreezePanel_Basic.res FreezePanelCallout.res and FreezePanelKillerHealth.res
+ * *Main Menu:* \resource\GameMenu.res and \resource\ui\MainMenuOverrides.res
+ * *Quickswitch Loadout:* \resource\ui\ItemQuickSwitch.res
+ * *Scoreboard:* \resource\ui\ScoreBoard.res
+ * *Spectator Screen:* \resource\ui\Spectator.res and SpectatorGUIHealth.res
+ * *Stopwatch Panel:* \resource\ui\HudStopWatch.res
+ * *Team Screen:* \resource\ui\Teammenu.res
+ * *Tournament Spectator Screen:* \resource\ui\SpectatorTournament.res and SpectatorTournamentGUIHealth.res
