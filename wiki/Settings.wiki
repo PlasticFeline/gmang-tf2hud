@@ -80,7 +80,7 @@ Manual overrides should be created under the `//USER-DEFINED (save backups!)` li
 By manipulating files, you can choose to switch to the cross-style health image in some places. See screenshots for examples.
 
 ===Player Health Shape===
-Some players prefer cross-shaped health, as shipped originally with the game. This can be implemented with a simple file swap as follows:
+Some players may prefer cross-shaped health, as shipped originally with the game. This can be implemented with a simple file swap as follows:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_CROSS.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_CROSS - Copy.res*.
