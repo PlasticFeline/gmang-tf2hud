@@ -10,5 +10,5 @@ Closed captions need to be enabled in your Team Fortress 2 settings (`closecapti
 Color-coding is used to indicate source of sound (generally representing a class). These colors are...
 
 
-= Events and Symbols =
+= Messages =
 To reduce space and time usage, the HUD uses symbols and short keyphrases to convey sound meanings. The messages used are...
