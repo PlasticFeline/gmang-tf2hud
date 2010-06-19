@@ -4,6 +4,21 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 09 (2010 June 19)====
+Might want to look at screenshots.
+ * Closed captions implemented, see [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions ClosedCaptions]
+ * Added health value color changes based on overhealed/normal/hurt status
+ * Revised Medic elements (pretty different, try it for a few days before raging at me)
+ * Similarly revised Bonk/Crit-A-Cola element (but can't auto-stretch to full width while maintaining indicators)
+ * Implemented system that makes class image visible while disguised but otherwise hidden, dropping support for class image file swap
+ * Added file swap for cross version of player health, dropping support for close version of health and ammo
+ * Added override for small uber percentage text near crosshair
+ * Cut down on kill cam panel
+ * Tweaked minmode 0 scoreboard and tournament panels to fit 32 players on more aspect ratios
+ * Moved various objective elements to make room for new Bonk and Medic layout
+ * Shrunk CTF elements
+ * Made minor edits to ClientScheme listing ordering for the new [http://code.google.com/p/gmang-tf2hud/wiki/OverridesList OverridesList] page
+
 ===Beta 08 (2010 June 16)===
  * Added new main menu (see Settings for function customization)
  * Added non-TFC game icon
