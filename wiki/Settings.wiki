@@ -75,34 +75,25 @@ Manual overrides should be created under the `//USER-DEFINED (save backups!)` li
 }}}
 
 ==File Swaps==
-By manipulating files, you can choose whether or not the personal class image is displayed.
+By manipulating files, you can choose whether or not the personal class image is displayed. See screenshots for examples.
 
-===Class Image===
-The class images are off by default; instructions for turning them on follow:
+===Player Health Shape===
+Some players prefer cross-shaped health, as shipped originally with the game. This can be implemented with a simple file swap as follows:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
- # Delete the file named *HudPlayerClass.res*.
- # Copy the file named *HudPlayerClass_SHOW.res* and paste it into the same folder. This should create a file called *HudPlayerClass_SHOW - Copy.res*.
- # Rename the new file from *HudPlayerClass_SHOW - Copy.res* to *HudPlayerClass.res*.
+ # Delete the file named *HudPlayerHealth.res*.
+ # Copy the file named *HudPlayerHealth_CROSS.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_CROSS - Copy.res*.
+ # Rename the new file from *HudPlayerHealth_CROSS - Copy.res* to *HudPlayerHealth.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
-The reverse can be done by using the file called *HudPlayerClass_HIDE.res* instead of *HudPlayerClass_SHOW.res*.
+The reverse can be done by using the file called *HudPlayerHealth_BOX.res* instead of *HudPlayerHealth_CROSS.res*.
 
 ===Tournament Spectator Health===
 Because of the method used for formatting rectangular health icons, the tournament spectator HUD sometimes displays awkwardly stretched death icons. To avoid this, you can swap out the rectangular health icon on the tournament spectator panels for cross health icons. Instructions for doing this follow:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *SpectatorTournamentGUIHealth.res*.
  # Copy the file named *SpectatorTournamentGUIHealth_CROSS.res* and paste it into the same folder. This should create a file called *SpectatorTournamentGUIHealth_CROSS - Copy.res*.
- # Rename the new file from *SpectatorTournamentGUIHealth_CROSS - Copy.res* to *HudPlayerClass.res*.
+ # Rename the new file from *SpectatorTournamentGUIHealth_CROSS - Copy.res* to *SpectatorTournamentGUIHealth.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 The reverse can be done by using the file called *SpectatorTournamentGUIHealth_BOX.res* instead of *SpectatorTournamentGUIHealth_CROSS.res*.
-
-===Player Status Spacing===
-If you prefer the health and ammo elements closer to the bottom-middle of the screen (as with older public beta versions), follow these steps:
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
- # Delete the files named *HudAmmoWeapons.res* and *HudPlayerHealth.res*.
- # Copy the files named *HudAmmoWeapons_CLOSE.res* and *HudPlayerHealth_CLOSE.res* and paste them into the same folder. This should create two files called *HudAmmoWeapons_CLOSE - Copy.res* and *HudPlayerHealth_CLOSE - Copy.res*.
- # Rename the new files from *HudAmmoWeapons_CLOSE - Copy.res* to *HudAmmoWeapons.res* and *HudPlayerHealth_CLOSE - Copy.res* to *HudPlayerHealth.res*.
- # If TF2 is open, enter the command *hud_reloadscheme* into console.
-The reverse can be done by using the file called *HudAmmoWeapons_FAR.res* instead of *HudAmmoWeapons_CLOSE.res* and *HudPlayerHealth_FAR.res* instead of *HudPlayerHealth_CLOSE.res*.
 
 ==File Removal==
  _See also: [http://code.google.com/p/gmang-tf2hud/wiki/RemovableFilesList RemoveableFilesList] _
