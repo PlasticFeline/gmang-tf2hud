@@ -2,7 +2,7 @@
 
 = Introduction =
 
- *This page will be finished by tonight.*
+ * *This page will be finished by tonight.*
 
 Closed captions need to be enabled in your Team Fortress 2 settings (`closecaption "1"`). Currently, only English is supported. Once the captions are finalized (meaning the HUD comes out of beta), the source will be released with the HUD (requires Source SDK to export).
 
