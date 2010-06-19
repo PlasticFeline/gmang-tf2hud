@@ -35,7 +35,7 @@ Soldier Only:
 
 Heavy Only:
  * *○ EATING ○* : Heavy has started eating Sandvich or Chocolate
- * ☺ EATEN ☺ : Heavy recently finished eating Sandvich
+ * ☺ EATEN ☺ : Heavy recently finished eating Sandvich or Chocolate
 
 Engineer Only:
  * ¥ DISPENSER ¥ : Dispenser placed
