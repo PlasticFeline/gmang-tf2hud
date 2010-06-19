@@ -13,73 +13,82 @@ First is main menu, second is team menu, third is class menu. Models are animate
 [http://img708.imageshack.us/img708/1593/hudscreenclassfull.png http://img709.imageshack.us/img709/9290/hudscreenclassthumb.png]
 
 ==Scoreboards==
-First scoreboard is minmode 1, second scoreboard is minmode 0. Bottom is SourceTV spectator screen.
+First scoreboard is minmode 1, second scoreboard is minmode 0; third is default SourceTV spectator screen, fourth is SourceTV spectator screen with cross health fileswap.
 
-[http://img8.imageshack.us/img8/3989/gmanghudscreenminmodefu.png http://img192.imageshack.us/img192/6473/gmanghudscreenminmodecr.png]
+[http://img651.imageshack.us/img651/1139/hudscreensb12pfull.png http://img708.imageshack.us/img708/4348/hudscreensb12pthumb.png]
 
-[http://img443.imageshack.us/img443/7673/gmanghudscreenmaxmodefu.png http://img684.imageshack.us/img684/6751/gmanghudscreenmaxmodecr.png]
+[http://img34.imageshack.us/img34/1051/hudscreensb32pfull.png http://img37.imageshack.us/img37/7845/hudscreensb32pthumb.png]
 
-[http://img214.imageshack.us/img214/6626/gmanghudscreenspectatef.png http://img37.imageshack.us/img37/5818/gmanghudscreenspectatec.png]
+[http://img413.imageshack.us/img413/7347/hudscreenmatchboxfull.png http://img51.imageshack.us/img51/6782/hudscreenmatchboxthumb.png]
+
+[http://img195.imageshack.us/img195/6963/hudscreenmatchcrossfull.png http://img149.imageshack.us/img149/8356/hudscreenmatchcrossthum.png]
 
 ==Scout==
 The health and ammo appears that way for all classes. Bonk Energy Drink and Crit-A-Cola have color zones to indicate when the item's effect will wear off. Green = effect active, red = effect expired.
 
-[http://img689.imageshack.us/img689/3976/gmanghudscreennewbonkfu.png http://img97.imageshack.us/img97/143/gmanghudscreennewbonkcr.png]
+[http://img691.imageshack.us/img691/4091/hudscreenscoutfull.png http://img153.imageshack.us/img153/900/hudscreenscoutthumb.png]
 
 ==Soldier==
-Shows basic health, ammo, and ctf layouts.
+When overhealed, health turns light blue-cyan.
 
-[http://img571.imageshack.us/img571/8388/gmanghudscreensoldierfu.png http://img208.imageshack.us/img208/6205/gmanghudscreensoldiercr.png]
+[http://img249.imageshack.us/img249/6519/hudscreensoldierfull.png http://img204.imageshack.us/img204/3424/hudscreensoldierthumb.png]
+
+==Pyro==
+When below half, health turns dull yellow. Also shows payload race.
+
+[http://img205.imageshack.us/img205/750/hudscreenpyrofull.png http://img64.imageshack.us/img64/2170/hudscreenpyrothumb.png]
 
 ==Demoman==
 Top is regular loadout, bottom is sword+shield loadout. Chargin' Targe charge meter notches indicate crit status: past orange notches is minicrit, past red notches is crit. Yellow text is decapitated heads.
 
-[http://img210.imageshack.us/img210/3041/gmanghudscreenstickiesf.png http://img218.imageshack.us/img218/4472/gmanghudscreenstickiesc.png]
+[http://img20.imageshack.us/img20/8513/hudscreenstickyfull.png http://img529.imageshack.us/img529/7828/hudscreenstickythumb.png]
 
-[http://img413.imageshack.us/img413/5951/gmanghudscreentargefull.png http://img25.imageshack.us/img25/9852/gmanghudscreentargecrop.png]
+[http://img532.imageshack.us/img532/6641/hudscreentargefull.png http://img15.imageshack.us/img15/1420/hudscreentargethumb.png]
+
+==Heavy==
+Shows CTF carried layout.
+
+[http://img823.imageshack.us/img823/8847/hudscreenheavyfull.png http://img25.imageshack.us/img25/7264/hudscreenheavythumb.png]
 
 ==Engineer==
-Engineer HUD is more condensed and detailed (currently no build/destroy menus).
+Also shows basic CTF layout.
 
-[http://img19.imageshack.us/img19/7940/gmanghudscreenengy2full.png http://img443.imageshack.us/img443/6046/gmanghudscreenengy2crop.png]
+[http://img268.imageshack.us/img268/7025/hudscreenengyfull.png http://img690.imageshack.us/img690/5301/hudscreenengythumb.png]
 
-[http://img188.imageshack.us/img188/9752/gmanghudscreenengy1full.png http://img139.imageshack.us/img139/4910/gmanghudscreenbuildings.png]
+[http://img64.imageshack.us/img64/9289/hudscreenbuildingsfull.png http://img710.imageshack.us/img710/3126/hudscreenbuildingsthumb.png]
 
 ==Medic==
 Top is uncharged Uber. Bottom is activated Uber. Also shows targetID's.
 
-[http://img522.imageshack.us/img522/2428/gmanghudscreenmedicfull.png http://img517.imageshack.us/img517/5910/gmanghudscreenmediccrop.png]
+[http://img143.imageshack.us/img143/4050/hudscreenmedicfull.png http://img683.imageshack.us/img683/1077/hudscreenmedicthumb.png]
 
-[http://img688.imageshack.us/img688/2315/gmanghudscreenuberfull.png http://img532.imageshack.us/img532/5082/gmanghudscreenubercropp.png]
+[http://img580.imageshack.us/img580/3319/hudscreenuberfull.png http://img85.imageshack.us/img85/6260/hudscreenuberthumb.png]
 
 ===Sniper=
 Huntsman chargeup has indicator notches for headshot damage values. Orange zone = 175+ damage on headshot, green = 200+, purple = 260+, grey = 300+.
 
-[http://img706.imageshack.us/img706/4201/gmanghudscreensniperful.png http://img375.imageshack.us/img375/6134/gmanghudscreensnipercro.png]
+[http://img821.imageshack.us/img821/3175/hudscreensniperfull.png http://img143.imageshack.us/img143/7757/hudscreensniperthumb.png]
 
 ==Spy==
-Spy donning a disguise. Cloak meter is ItemEffectMeter, which means it's shared with things like Sandman, Jarate, and Buff Banner charge. Disguise portrait is only visible as depicted if class images are turned on.
+Above is donning a disguise, below is disguise donned. Cloak meter is ItemEffectMeter, which means it's shared with things like Sandman, Jarate, and Buff Banner charge.
 
-[http://img248.imageshack.us/img248/3457/gmanghudscreenspynewful.png http://img297.imageshack.us/img297/8356/gmanghudscreenspynewcro.png]
+[http://img190.imageshack.us/img190/965/hudscreenspyfull.png http://img822.imageshack.us/img822/8197/hudscreenspythumb.png]
 
-==Pyro/Heavy==
-Pyro and Heavy are basically identical. Also shows flag hold screen.
-
-[http://img704.imageshack.us/img704/2888/gmanghudscreenheavyfull.png http://img132.imageshack.us/img132/9514/gmanghudscreenheavycrop.png]
+[http://img202.imageshack.us/img202/2540/hudscreendisguisefull.png http://img375.imageshack.us/img375/6279/hudscreendisguisethumb.png]
 
 ==Quickswitch==
 Can be set to Valve default by deleting *ItemQuickSwitch.res*.
 
-[http://img62.imageshack.us/img62/3429/gmanghudscreenquickswit.png http://img708.imageshack.us/img708/3429/gmanghudscreenquickswit.png]
+[http://img532.imageshack.us/img532/8938/hudscreenquickswitchful.png http://img571.imageshack.us/img571/6654/hudscreenquickswitchthu.png]
 
 ==Options==
 The HUD using a variety of Common Overrides and File Swaps (see Settings).
 
-[http://img522.imageshack.us/img522/2838/gmanghudscreenoptionsfu.png http://img708.imageshack.us/img708/3033/gmanghudscreenoptionscr.png]
+[http://img693.imageshack.us/img693/5921/hudscreenswapfull.png http://img203.imageshack.us/img203/7474/hudscreenswapthumb.png]
 
-==Objectives==
-First is payload race, second is stopwatch.
+[http://img682.imageshack.us/img682/7105/hudscreenoverridefull.png http://img444.imageshack.us/img444/8126/hudscreenoverridethumb.png]
 
-[http://img337.imageshack.us/img337/374/gmanghudscreenpayloadra.png http://img18.imageshack.us/img18/374/gmanghudscreenpayloadra.png]
+==Stopwatch==
+Stopwatch is compacted.
 
-[http://img248.imageshack.us/img248/3457/gmanghudscreenspynewful.png http://img3.imageshack.us/img3/511/gmanghudscreenstopwatch.png]
+[http://img691.imageshack.us/img691/4091/hudscreenscoutfull.png http://img823.imageshack.us/img823/9564/hudscreenstopwatch.png]
