@@ -286,7 +286,20 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"BuildingUpgradeShadow"		"ShadowDefault"
 		"SapperPanel"				"ColorBlack064"
 		"UpgradeColor"				"MetalColor"
-		
+		"DispMetalColor"			"ColorYellow_192"
+		"DispMetalShadow"			"ShadowDefault"
+		"RocketsColor"				"ColorMagenta_192"
+		"SGKillsColor"				"ColorRed_192"
+		"SGShellsColor"				"ColorYellow_192"
+		"TPColor"					"ColorGreen_192"
+
+		"JusticeColor"				"ColorYellow"
+		"JusticeOutline"			"OutlineDefault"
+		"JusticeShadow"				"ShadowDefault"
+
+		"MoveableBG"				"ColorBlack096"
+		"MoveableIcon"				"ColorWhite"
+
 		"EngyMetalCount"			"MetalColor"
 		"EngyMetalGain"				"ColorGreen"
 		"EngyMetalLoss"				"ColorRed"
