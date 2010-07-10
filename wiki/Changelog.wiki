@@ -4,6 +4,11 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 10 (2010 July 09)====
+  * Fixed inconsistencies with Engineer update
+  * Applied new icons to Engineer building panels and targetID
+  * Added file swap for classic Medic ubercharge meter
+
 ====Beta 09 (2010 June 19)====
 Might want to look at screenshots.
  * Closed captions implemented, see [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions ClosedCaptions]
