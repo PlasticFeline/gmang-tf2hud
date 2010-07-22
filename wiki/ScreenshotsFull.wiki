@@ -2,7 +2,6 @@
 
 =Introduction=
 Magenta text is generally indicator for last-damage-dealt. Cropped version can be found [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsCropped here].
-#summary Screenshots of the HUD with cropping to prevent excessive bandwidth and page space usage.
 
 ==Menus==
 First is main menu, second is team menu, third is class menu. Models are animated and hotkeys work.
