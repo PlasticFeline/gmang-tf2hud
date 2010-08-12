@@ -4,6 +4,12 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 12 (2010 August 11)====
+  * Fixed issue with CTF winlimit display
+  * Added file swap for quickswitch placement
+  * Adjusted arena player count placement
+  * Hid map team goal notification panel
+
 ====Beta 11 (2010 July 16)====
   * Tweaked normal payload icons so they don't overlap ubercharge/bonk meter
   * Added file swap for larger name text on TargetID
