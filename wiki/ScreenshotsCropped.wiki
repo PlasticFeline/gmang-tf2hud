@@ -53,9 +53,9 @@ Shows CTF carried layout.
 ==Engineer==
 Also shows basic CTF layout.
 
-[http://img268.imageshack.us/img268/7025/hudscreenengyfull.png http://img690.imageshack.us/img690/5301/hudscreenengythumb.png]
+[http://a.imageshack.us/img80/7025/hudscreenengyfull.png http://a.imageshack.us/img205/4084/hudscreenengycropped.png]
 
-[http://img64.imageshack.us/img64/9289/hudscreenbuildingsfull.png http://img710.imageshack.us/img710/3126/hudscreenbuildingsthumb.png]
+[http://a.imageshack.us/img15/9289/hudscreenbuildingsfull.png http://a.imageshack.us/img808/1239/hudscreenbuildingscropp.png]
 
 ==Medic==
 Top is uncharged Uber. Bottom is activated Uber. Also shows targetID's.
@@ -87,6 +87,8 @@ The HUD using a variety of Common Overrides and File Swaps (see Settings).
 [http://img693.imageshack.us/img693/5921/hudscreenswapfull.png http://img203.imageshack.us/img203/7474/hudscreenswapthumb.png]
 
 [http://img682.imageshack.us/img682/7105/hudscreenoverridefull.png http://img444.imageshack.us/img444/8126/hudscreenoverridethumb.png]
+
+[http://a.imageshack.us/img43/3451/hudscreennewswapfull.png http://a.imageshack.us/img704/6988/hudscreennewswapcropped.png]
 
 ==Stopwatch==
 Stopwatch is compacted.
