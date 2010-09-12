@@ -4,6 +4,14 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 13 (2010 September 11)====
+  * Revised most meters to be wider and spaced better vertically
+  * Added a bunch of file swaps for meters
+  * Changed default bonk meter to middle
+  * Changed default quickswitch placement to east
+  * Made timer subtext outlined
+  * Trimmed some fat from ClientScheme
+
 ====Beta 12 (2010 August 11)====
   * Fixed issue with CTF winlimit display
   * Added file swap for quickswitch placement
