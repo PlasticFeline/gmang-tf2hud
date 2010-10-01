@@ -4,6 +4,10 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 14 (2010 September 30)====
+  * Slightly changed ClientScheme in accordance with Polycount update.
+  * Edited main menu in accordance with Polycount update.
+
 ====Beta 13 (2010 September 11)====
   * Revised most meters to be wider and spaced better vertically
   * Added a bunch of file swaps for meters
