@@ -4,6 +4,12 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 15 (2010 October 2)====
+  * Added milk effect to health in accordance with Polycount update.
+  * Edited HudAnimations_tf, hudlayout, ClientScheme, and MainMenuOverride in accordance with Polycount update.
+  * Edited scoreboard formatting to properly place duel panel.
+  * Adjusted health gain text positioning.
+
 ====Beta 14b (2010 September 30)====
   * Edited scoreboard formatting in accordance with Polycount update.
 
