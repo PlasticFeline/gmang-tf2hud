@@ -4,7 +4,13 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
-====Beta 15 (2010 October 2)====
+====Beta 16 (2010 October 20)====
+  * Made edits to Tiny Ubercharge Text override (bigger font, changes colors like full-sized text).
+  * Added version number to main menu.
+  * Added instructions for keeping class icons visible permanently (Ctrl+F PERMACLASS in ClientScheme.res)
+  * Updated ClientScheme.res in accordance with latest patch.
+
+====Beta 15 (2010 October 02)====
   * Added milk effect to health in accordance with Polycount update.
   * Edited HudAnimations_tf, hudlayout, ClientScheme, and MainMenuOverride in accordance with Polycount update.
   * Edited scoreboard formatting to properly place duel panel.
