@@ -4,6 +4,9 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 16b (2010 October 20)====
+  * Fixed trade chat text not displaying due to missing new font in ClientScheme.
+
 ====Beta 16 (2010 October 20)====
   * Made edits to Tiny Ubercharge Text override (bigger font, changes colors like full-sized text).
   * Added version number to main menu.
