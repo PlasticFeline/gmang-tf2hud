@@ -6,7 +6,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
 ==Beta Version==
 ====Beta 17 (2010 November 1)====
   * Added Achievement-Tracker crosshair (as well as minmode-based and permanent crosshairs); currently in experimental state with only three shapes (+, small +, dot); track an achievement to get the crosshair, find options in ClientScheme overrides, remove with file swap. (Thanks to noid for achievement tracker crosshair idea!)
-  * Added scoreboard file swaps along with a new scoreboard type, COMPACT (minimalist 12p). Screenshot: http://img51.imageshack.us/img51/3627/tf2hudcompscoreboardscr.jpg
+  * Added scoreboard file swaps along with a new scoreboard type, COMPACT (minimalist 12p). Screenshot: [http://img51.imageshack.us/img51/3627/tf2hudcompscoreboardscr.jpg here]
   * Adjusted crosshair ubercharge for better appearance; added transparent variant.
   * Updated content in ClientScheme to avoid possible issues with recent updates.
 I recommend using the 32-COMP scoreboard, achievement track on all classes other than sniper, and enabling the "Ubercharge Under Crosshair" and "Permanent Custom Crosshair (Dot)" overrides.
