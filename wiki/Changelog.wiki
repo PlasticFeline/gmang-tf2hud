@@ -9,7 +9,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
   * Added scoreboard file swaps along with a new scoreboard type, COMPACT (minimalist 12p). Screenshot: [http://img51.imageshack.us/img51/3627/tf2hudcompscoreboardscr.jpg here]
   * Adjusted crosshair ubercharge for better appearance; added transparent variant.
   * Updated content in ClientScheme to avoid possible issues with recent updates.
-I recommend using the 32-COMP scoreboard, achievement track on all classes other than sniper, and enabling the "Ubercharge Under Crosshair" and "Permanent Custom Crosshair (Dot)" overrides.
+Big apologies to people waiting for the HUD update. Long story short, I accidentally patched my HUD copy before even checking to see if anything broke, and then assumed the update didn't break anything. Won't happen again. I recommend using the 32-COMP scoreboard and the "Ubercharge Under Crosshair" override.
 
 ====Beta 16b (2010 October 20)====
   * Fixed trade chat text not displaying due to missing new font in ClientScheme.
