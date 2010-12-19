@@ -3,6 +3,8 @@
 =Introduction=
 There are a variety of ways the HUD can be easily customized to suit your preferences.
 
+For settings related to [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions Closed Captions], [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Custom Crosshairs], [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions Medic Options], see their respective wiki pages.
+
 ==Console Commands==
 The HUD has two modes: Match Mode and Pub Mode. Match mode is turned on with the following command:
 {{{cl_hud_minmode "1"}}}
@@ -87,15 +89,6 @@ Some players may prefer cross-shaped health, as shipped originally with the game
  # Rename the new file from *HudPlayerHealth_CROSS - Copy.res* to *HudPlayerHealth.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 The reverse can be done by using the file called *HudPlayerHealth_BOX.res* instead of *HudPlayerHealth_CROSS.res*.
-
-===Medic Ubercharge Meter===
-If you're not loving the stretched, bottom-aligned ubercharge bar, you can turn on the classic one with the following steps:
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
- # Delete the file named *HudMedicCharge.res*.
- # Copy the file named *HudMedicCharge_FIXED.res* and paste it into the same folder. This should create a file called *HudMedicCharge_FIXED - Copy.res*.
- # Rename the new file from *HudMedicCharge_FIXED - Copy.res* to *HudMedicCharge.res*.
- # If TF2 is open, enter the command *hud_reloadscheme* into console.
-The reverse can be done by using the file called *HudMedicCharge_STRETCH.res* instead of *HudMedicCharge_FIXED.res*.
 
 ===Tournament Spectator Health===
 Because of the method used for formatting rectangular health icons, the tournament spectator HUD sometimes displays awkwardly stretched death icons. To avoid this, you can swap out the rectangular health icon on the tournament spectator panels for cross health icons (seen in [http://img195.imageshack.us/img195/6963/hudscreenmatchcrossfull.png this screenshot]. Instructions for doing this follow:
