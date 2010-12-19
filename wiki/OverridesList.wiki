@@ -7,7 +7,7 @@
 For instructions on applying Overrides, see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings].
 
 = Naming Conventions =
-Descriptions for Preoverrides will be written on a per-request basis, as most of them can be understood by context and Conventions, which follow.
+Descriptions for Preoverrides will be written on a per-request basis, as most of them can be understood by context and Conventions, which follow. For custom crosshair conventions, see [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Crosshairs].
 
 ==Keywords==
   * `AmmoClip`: Ammo currently loaded in the weapon.
@@ -15,6 +15,7 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
   * `Bonk`: Scout's Bonk Energy Drink/Crit-A-Cola.
   * `Bow` or `BowCharge`: Huntsman.
   * `Building`: Engineer's buildings' status display.
+  * `CH`: Custom crosshair. See [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Crosshairs].
   * `CTF`: Capture-the-flag game mode.
   * `DamageText`: Damage values/combattext.
   * `EngyMetal`: Engineer's metal count.
@@ -59,6 +60,13 @@ Information about each override is written after slashes (`//`) on the same line
 
 == Common Overrides ==
 {{{
+		//Hide Permanent Dot Crosshair
+		//"CHPermaDotBG"			"NotVisible" //Hides outline
+		//"CHPermaDotFG"			"NotVisible" //Hides inner color
+
+		//Hide Achievement Tracker Text Crosshair
+		//"CHAchText"			"NotVisible" //Hides entire crosshair
+
 		//Yellow Damage Text
 		"DamageTextHit"				"ColorYellow" //Color of damage values that appear above hits
 		"DamageTextLast"			"ColorYellow" //Color of latest damage dealt written in HUD
@@ -97,6 +105,8 @@ Information about each override is written after slashes (`//`) on the same line
 Using a program like Notepad++, you can search the entirety of your /ui/ folder to find instances of these Preoverrides. If after doing this and reading the full Override Conventions list, you are still confused, leave a comment and I'll add a description to the override.
 {{{
 		"ProgressVoid"				"ProgressVoidDefault"
+		
+		"VersionText"				"ColorWhite032"
 
 		"ClassNum"					"ColorWhite128"
 		"FullTeamsText"				"ColorRed"
@@ -199,6 +209,40 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"StopWatchDescription"		"Color210Grey128"
 		"StopWatchPoints"			"ColorStopWatchTint"
 		"StopWatchTime"				"ColorWhite"
+		
+		"CHAchDotBG"				"NotVisible"
+		"CHAchDotFG"				"NotVisible"
+		"CHAchBigHorizBG"				"NotVisible"
+		"CHAchBigHorizFG"				"NotVisible"
+		"CHAchBigVertBG"				"NotVisible"
+		"CHAchBigVertFG"				"NotVisible"
+		"CHAchSmallHorizBG"			"NotVisible"
+		"CHAchSmallHorizFG"			"NotVisible"
+		"CHAchSmallVertBG"			"NotVisible"
+		"CHAchSmallVertFG"			"NotVisible"
+		"CHAchText"					"ColorGreen"
+		"CHMinmodeDotBG"				"NotVisible"
+		"CHMinmodeDotFG"				"NotVisible"
+		"CHMinmodeBigHorizBG"				"NotVisible"
+		"CHMinmodeBigHorizFG"				"NotVisible"
+		"CHMinmodeBigVertBG"				"NotVisible"
+		"CHMinmodeBigVertFG"				"NotVisible"
+		"CHMinmodeSmallHorizBG"			"NotVisible"
+		"CHMinmodeSmallHorizFG"			"NotVisible"
+		"CHMinmodeSmallVertBG"			"NotVisible"
+		"CHMinmodeSmallVertFG"			"NotVisible"
+		"CHMinmodeText"					"NotVisible"
+		"CHPermaDotBG"				"ColorBlack"
+		"CHPermaDotFG"				"ColorGreen"
+		"CHPermaBigHorizBG"			"NotVisible"
+		"CHPermaBigHorizFG"			"NotVisible"
+		"CHPermaBigVertBG"				"NotVisible"
+		"CHPermaBigVertFG"				"NotVisible"
+		"CHPermaSmallHorizBG"			"NotVisible"
+		"CHPermaSmallHorizFG"			"NotVisible"
+		"CHPermaSmallVertBG"				"NotVisible"
+		"CHPermaSmallVertFG"				"NotVisible"
+		"CHPermaText"				"NotVisible"
 
 		"ItemEffectMeterBar"		"ColorBlack"
 		"ItemEffectMeterNotchB"		"ColorWhite"
@@ -232,7 +276,7 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"TournySpecHPShadow"		"ShadowDefault"
 		"TournySpecHPVoid"			"Color015Grey"
 
-		"BonkActiveMid"				"ColorGreen"
+		"BonkActiveMid"				"Color200Green"
 		"BonkActiveBot"				"Color064Green"
 		"BonkActiveNotchL"			"ColorYellow128"
 		"BonkActiveNotchS"			"ColorYellow"
@@ -266,6 +310,9 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"TargeNotchF"				"TargeNotchFDefault"
 		"TargeStickyNotchB"			"StickyNotchBDefault"
 		"TargeStickyNotchF"			"StickyNotchFDefault"
+		"TargeStretchNotchB"		"ColorWhite"
+		"TargeStretchNotchBB"		"ColorBlack"
+		"TargeStretchNotchF"		"ColorBlack143"
 		"TargeVoid"					"ProgressVoidDefault"
 
 		"BuildingBar"				"ColorBlack"
@@ -309,19 +356,44 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"BlutsaugerGain"			"ColorGreen"
 
 		"UberchargeBar"				"ColorBlack"
+		"UberchargeBarF"			"ColorBlack143"
+		"UberchargeBarB"			"ColorWhite"
 		"UberchargeFullMeter1"		"ColorGreen"
 		"UberchargeFullMeter2"		"UberchargeFull"
+		"UberchargeFullMeter3"		"ColorGreen"
+		"UberchargeFullMeter4"		"UberchargeFull"
+		"UberchargeFullMeter5"		"ColorGreen"
+		"UberchargeFullMeter6"		"UberchargeFull"
 		"UberchargeFullText1"		"ColorGreen"
 		"UberchargeFullText2"		"UberchargeFull"
+		"UberchargeFullText3"		"ColorGreen"
+		"UberchargeFullText4"		"UberchargeFull"
+		"UberchargeFullText5"		"ColorGreen"
+		"UberchargeFullText6"		"UberchargeFull"
 		"UberchargeNotchB"			"ColorWhite"
 		"UberchargeNotchBB"			"ColorBlack"
 		"UberchargeNotchF"			"ColorBlack143"
 		"UberchargeOutline"			"OutlineDefault"
 		"UberchargeShadow"			"ShadowDefault"
-		"UberchargeText"			"ColorYellow"
-		"UberchargeTextTiny"			"ColorYellow"
+		"UberchargeText"			"UberYellow"
+		"UberchargeTextTiny"		"UberYellow"
+		"UberchargeTextTinyTrans"	"NotVisible"
+		"UberchargeTextTinyOutline"	"OutlineDefault"
+		"UberchargeTextTinyShadow"	"ShadowDefault"
+		"UberchargeFullTinyText1"	"ColorGreen"
+		"UberchargeFullTinyText1Trans"	"NotVisible"
+		"UberchargeFullTinyText2"	"UberchargeFull"
+		"UberchargeFullTinyText2Trans"	"NotVisible"
+		"UberchargeFullTinyText3"	"ColorGreen"
+		"UberchargeFullTinyText3Trans"	"NotVisible"
+		"UberchargeFullTinyText4"	"UberchargeFull"
+		"UberchargeFullTinyText4Trans"	"NotVisible"
+		"UberchargeFullTinyText5"	"ColorGreen"
+		"UberchargeFullTinyText5Trans"	"NotVisible"
+		"UberchargeFullTinyText6"	"UberchargeFull"
+		"UberchargeFullTinyText6Trans"	"NotVisible"
 		"UberchargeVoid"			"ProgressVoidDefault"
-
+		
 		"BowCharge175Notch"			"BowCharge175NotchDefault"
 		"BowCharge175Area"			"BowCharge175AreaDefault"
 		"BowCharge200Notch"			"BowCharge200NotchDefault"
@@ -330,6 +402,8 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"BowCharge260Area"			"BowCharge260AreaDefault"
 		"BowCharge300Notch"			"BowCharge300NotchDefault"
 		"BowCharge300Area"			"BowCharge300AreaDefault"
+		"BowCharge360Notch"			"BowCharge360NotchDefault"
+		"BowCharge360Area"			"BowCharge360AreaDefault"
 		"BowChargeBar"				"ColorBlack"
 		"BowChargeVoid"				"ProgressVoidDefault"
 		"BowNotchB"					"BowNotchBDefault"
