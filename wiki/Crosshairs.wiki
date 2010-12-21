@@ -118,14 +118,6 @@ Small Cross:
 		"CHMinmodeSmallVertFG"			"ColorGreen"
 }}}
 
-Small Cross:
-{{{
-		"CHAchSmallHorizBG"			"ColorBlack"
-		"CHAchSmallHorizFG"			"ColorGreen"
-		"CHAchSmallVertBG"			"ColorBlack"
-		"CHAchSmallVertFG"			"ColorGreen"
-}}}
-
 ==Permanent Crosshairs==
 The following are overrides for each crosshair shape available for the Permanent display mode.
 
@@ -159,14 +151,6 @@ Small Cross:
 		"CHPermaSmallHorizFG"			"ColorGreen"
 		"CHPermaSmallVertBG"			"ColorBlack"
 		"CHPermaSmallVertFG"			"ColorGreen"
-}}}
-
-Small Cross:
-{{{
-		"CHAchSmallHorizBG"			"ColorBlack"
-		"CHAchSmallHorizFG"			"ColorGreen"
-		"CHAchSmallVertBG"			"ColorBlack"
-		"CHAchSmallVertFG"			"ColorGreen"
 }}}
 
 = Custom Crosshair Overrides =
