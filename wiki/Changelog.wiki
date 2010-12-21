@@ -8,7 +8,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
 Wiki and screenshots are currently getting expanded and udpated.
   * Added options for ClosedCaptions, separating it into FULL (all captions), MEDIC (concise captioning for medics), and LITE (concise captioning for other classes). Added captions for Engineer picking up and dropping buildings. See [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions Closed Captions wiki page].
   * Updated custom crosshairs significantly (though still a WIP feature), adding two text-based crosshairs and improving consistency. See [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Crosshairs wiki page].
-  * Adjusted a variety of hud animations and added new full Ubercharge effect options (Magenta, Obnoxious, Rainbow); see http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions Medic Options wiki page].
+  * Adjusted a variety of hud animations and added new full Ubercharge effect options (Magenta, Obnoxious, Rainbow); see [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions Medic Options wiki page].
   * Improved Tiny Uber Text for smoother appearance, added semi-transparent option.
   * Fixed main page displaying usable item icons in the corner.
   * Altered sizing and spacing of some objectives panels.
