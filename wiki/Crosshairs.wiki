@@ -23,14 +23,16 @@ To make visible the regular Achievement tracker, you must perform a fileswap. In
 The reverse can be done by using the file called *HudAchievementTrackerItem_CROSSHAIR.res* instead of *HudAchievementTrackerItem_VANILLA.res*.
 
 = Crosshair Types =
+[http://imgur.com/IAVt2.png http://imgur.com/IAVt2.png]
+
 By default, the _Achievement tracker Text cross_ and the _Permanent Dot_ crosshairs are enabled.
 
 There are currently four kinds of crosshair shapes that come with the HUD:
   * *Text cross:* The text cross is a small, thin plus sign (+). Its foreground color can be customized, but its outline cannot.
   * *Circle:* Also based on text, but shaped like a circle. Its foreground color can be customized, but its outline cannot.
+  * *Dot:* The smallest possible outlined crosshair of a 1x1 dot above a 2x2 dot. Both foreground and outline colors can be changed.
   * *Big cross:* Drawn using areas of color in the HUD, forming a large plus sign (+). Both foreground and outline colors can be changed.
   * *Small cross:* Drawn using areas of color in the HUD, forming a thick--but relatively short--plus sign (+). Both foreground and outline colors can be changed.
-  * *Dot:* The smallest possible outlined crosshair of a 1x1 dot above a 2x2 dot. Both foreground and outline colors can be changed.
 
 There are currently three modes for crosshair display:
   * *Achievement tracker:* The custom crosshair is visible whenever you are tracking an achievement that would appear on your current class (open your achievements, find one you haven't done, and check the box for "Show on HUD"); leaving this enabled removes the actual visibility of achievement trackers. For example, if you track the achievement "Out of the Park", the custom crosshair will be visible whenever you go Scout, but the actual achievement tracker will not appear. If you have already done all achievements for a given class, track general achievements instead (holiday ones are a good choice); if you've done all general achievements as well, you'll have to use another method of displaying a custom crosshair (google "netgraph crosshair"). When making custom scripts, you can make this crosshair appear and disappear automatically with the console command `hud_achievement_tracker`. The crosshair is placed in front of all other crosshairs (including Valve's).
