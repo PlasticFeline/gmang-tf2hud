@@ -5,7 +5,7 @@
 The HUD comes with a small sampling of custom crosshairs with unique functionality. These crosshairs can be used in conjunction with Valve's in-game crosshairs and/or netgraph crosshairs should they be desired. Custom crosshairs may not display properly on especially small or large resolutions.
 
 = Disabling =
-The default custom crosshairs may conflict with personal preferences both aesthetically and functionally (due to its hiding of achievement tracks). To quickly and easily disable all custom crosshairs, an override and fileswap are used (see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings]). The override is:
+The default custom crosshairs may conflict with personal preferences both aesthetically and functionally (due to its hiding of achievement tracks). To quickly and easily disable all custom crosshairs, overrides are used (see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings]). The override is:
 {{{
 		"CHPermaDotBG"			"NotVisible"
 		"CHPermaDotFG"			"NotVisible"
@@ -14,7 +14,7 @@ If you don't mind the hidden Achievement tracker, you can hide the Achievement t
 {{{
 		"CHAchText"				"NotVisible"
 }}}
-To make visible the regular Achievement tracker, you must perform the fileswap. In order to do it...
+To make visible the regular Achievement tracker, you must perform a fileswap. In order to do it...
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
  # Delete the file named *HudAchievementTrackerItem.res*.
  # Copy the file named *HudAchievementTrackerItem_VANILLA.res* and paste it into the same folder. This should create a file called *HudAchievementTrackerItem_VANILLA - Copy.res*.
@@ -37,7 +37,139 @@ There are currently three modes for crosshair display:
   * *Minmode:* The custom crosshair is visible whenever minmode is on (console command `cl_hud_minmode 1`). This allows for scripting a class-specific crosshair even when you can't track any achievements, though it may cause conflicts with scoreboard toggling (you might want to fileswap for a non-changing scoreboard). The crosshair is placed behind all other crosshairs except the Permanent custom crosshair.
   * *Permanent:* The custom crosshair is visible whenever the default Valve HUD would show your class icon (generally at all times while alive and not looking at scoreboard). The crosshair is placed behind all other crosshairs.
 
-= Managing Custom Crosshairs =
+= Adding Custom Crosshairs =
+Before adding custom crosshairs, any other crosshairs under the same "mode" (see above) should be removed. After a fresh install, an Achievement tracker Text cross Crosshair and a Permanent Dot Crosshair are enabled. The former can be removed with this:
+{{{
+		"CHAchText"				"NotVisible"
+}}}
+while the latter can be removed with this:
+{{{
+		"CHPermaDotBG"			"NotVisible"
+		"CHPermaDotFG"			"NotVisible"
+}}}
+
+==Achievement Tracker Crosshairs==
+The following are overrides for each crosshair shape available for the Achievement tracker display mode.
+
+Text Cross (enabled by default):
+{{{
+		"CHAchText"					"ColorGreen"
+}}}
+
+Circle:
+{{{
+		"CHAchCircle"				"ColorGreen"
+}}}
+
+Dot:
+{{{
+		"CHAchDotBG"				"ColorBlack"
+		"CHAchDotFG"				"ColorGreen"
+}}}
+
+Big Cross:
+{{{
+		"CHAchBigHorizBG"				"ColorBlack"
+		"CHAchBigHorizFG"				"ColorGreen"
+		"CHAchBigVertBG"				"ColorBlack"
+		"CHAchBigVertFG"				"ColorGreen"
+}}}
+
+Small Cross:
+{{{
+		"CHAchSmallHorizBG"			"ColorBlack"
+		"CHAchSmallHorizFG"			"ColorGreen"
+		"CHAchSmallVertBG"			"ColorBlack"
+		"CHAchSmallVertFG"			"ColorGreen"
+}}}
+
+==Minmode Crosshairs==
+The following are overrides for each crosshair shape available for the Minmode display mode.
+
+Text Cross:
+{{{
+		"CHMinmodeText"					"ColorGreen"
+}}}
+
+Circle:
+{{{
+		"CHMinmodeCircle"				"ColorGreen"
+}}}
+
+Dot:
+{{{
+		"CHMinmodeDotBG"				"ColorBlack"
+		"CHMinmodeDotFG"				"ColorGreen"
+}}}
+
+Big Cross:
+{{{
+		"CHMinmodeBigHorizBG"				"ColorBlack"
+		"CHMinmodeBigHorizFG"				"ColorGreen"
+		"CHMinmodeBigVertBG"				"ColorBlack"
+		"CHMinmodeBigVertFG"				"ColorGreen"
+}}}
+
+Small Cross:
+{{{
+		"CHMinmodeSmallHorizBG"			"ColorBlack"
+		"CHMinmodeSmallHorizFG"			"ColorGreen"
+		"CHMinmodeSmallVertBG"			"ColorBlack"
+		"CHMinmodeSmallVertFG"			"ColorGreen"
+}}}
+
+Small Cross:
+{{{
+		"CHAchSmallHorizBG"			"ColorBlack"
+		"CHAchSmallHorizFG"			"ColorGreen"
+		"CHAchSmallVertBG"			"ColorBlack"
+		"CHAchSmallVertFG"			"ColorGreen"
+}}}
+
+==Permanent Crosshairs==
+The following are overrides for each crosshair shape available for the Permanent display mode.
+
+Text Cross:
+{{{
+		"CHPermaText"					"ColorGreen"
+}}}
+
+Circle:
+{{{
+		"CHPermaCircle"				"ColorGreen"
+}}}
+
+Dot (enabled by default):
+{{{
+		"CHPermaDotBG"				"ColorBlack"
+		"CHPermaDotFG"				"ColorGreen"
+}}}
+
+Big Cross:
+{{{
+		"CHPermaBigHorizBG"				"ColorBlack"
+		"CHPermaBigHorizFG"				"ColorGreen"
+		"CHPermaBigVertBG"				"ColorBlack"
+		"CHPermaBigVertFG"				"ColorGreen"
+}}}
+
+Small Cross:
+{{{
+		"CHPermaSmallHorizBG"			"ColorBlack"
+		"CHPermaSmallHorizFG"			"ColorGreen"
+		"CHPermaSmallVertBG"			"ColorBlack"
+		"CHPermaSmallVertFG"			"ColorGreen"
+}}}
+
+Small Cross:
+{{{
+		"CHAchSmallHorizBG"			"ColorBlack"
+		"CHAchSmallHorizFG"			"ColorGreen"
+		"CHAchSmallVertBG"			"ColorBlack"
+		"CHAchSmallVertFG"			"ColorGreen"
+}}}
+
+= Custom Crosshair Overrides =
 The following constitute all custom crosshair-related pre-overrides:
 {{{
 		"CHAchCircle"				"NotVisible"
