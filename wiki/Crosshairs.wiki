@@ -4,28 +4,10 @@
 
 The HUD comes with a small sampling of custom crosshairs with unique functionality. These crosshairs can be used in conjunction with Valve's in-game crosshairs and/or netgraph crosshairs should they be desired. Custom crosshairs may not display properly on especially small or large resolutions.
 
-= Disabling =
-The default custom crosshairs may conflict with personal preferences both aesthetically and functionally (due to its hiding of achievement tracks). To quickly and easily disable all custom crosshairs, overrides are used (see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings]). The override is:
-{{{
-		"CHPermaDotBG"			"NotVisible"
-		"CHPermaDotFG"			"NotVisible"
-}}}
-If you don't mind the hidden Achievement tracker, you can hide the Achievement tracker Crosshair by simply adding the following additional override
-{{{
-		"CHAchText"				"NotVisible"
-}}}
-To make visible the regular Achievement tracker, you must perform a fileswap. In order to do it...
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
- # Delete the file named *HudAchievementTrackerItem.res*.
- # Copy the file named *HudAchievementTrackerItem_VANILLA.res* and paste it into the same folder. This should create a file called *HudAchievementTrackerItem_VANILLA - Copy.res*.
- # Rename the new file from *HudAchievementTrackerItem_VANILLA - Copy.res* to *HudAchievementTrackerItem.res*.
- # If TF2 is open, enter the command *hud_reloadscheme* into console.
-The reverse can be done by using the file called *HudAchievementTrackerItem_CROSSHAIR.res* instead of *HudAchievementTrackerItem_VANILLA.res*.
-
 = Crosshair Types =
 [http://imgur.com/IAVt2.png http://imgur.com/IAVt2.png]
 
-By default, the _Achievement tracker Text cross_ and the _Permanent Dot_ crosshairs are enabled.
+By default, custom crosshairs are disabled. For those interested in trying them out, _Achievement tracker Text cross_ and the _Permanent Dot_ crosshairs are recommended (provided as Common Overrides).
 
 There are currently four kinds of crosshair shapes that come with the HUD:
   * *Text cross:* The text cross is a small, thin plus sign (+). Its foreground color can be customized, but its outline cannot.
@@ -40,20 +22,12 @@ There are currently three modes for crosshair display:
   * *Permanent:* The custom crosshair is visible whenever the default Valve HUD would show your class icon (generally at all times while alive and not looking at scoreboard). The crosshair is placed behind all other crosshairs.
 
 = Adding Custom Crosshairs =
-Before adding custom crosshairs, any other crosshairs under the same "mode" (see above) should be removed. After a fresh install, an Achievement tracker Text cross Crosshair and a Permanent Dot Crosshair are enabled. The former can be removed with this:
-{{{
-		"CHAchText"				"NotVisible"
-}}}
-while the latter can be removed with this:
-{{{
-		"CHPermaDotBG"			"NotVisible"
-		"CHPermaDotFG"			"NotVisible"
-}}}
+Before adding custom crosshairs, any other crosshairs under the same "mode" (see above) should be removed.
 
 ==Achievement Tracker Crosshairs==
 The following are overrides for each crosshair shape available for the Achievement tracker display mode.
 
-Text Cross (enabled by default):
+Text Cross:
 {{{
 		"CHAchText"					"ColorGreen"
 }}}
@@ -133,7 +107,7 @@ Circle:
 		"CHPermaCircle"				"ColorGreen"
 }}}
 
-Dot (enabled by default):
+Dot:
 {{{
 		"CHPermaDotBG"				"ColorBlack"
 		"CHPermaDotFG"				"ColorGreen"
@@ -169,7 +143,7 @@ The following constitute all custom crosshair-related pre-overrides:
 		"CHAchSmallHorizFG"			"NotVisible"
 		"CHAchSmallVertBG"			"NotVisible"
 		"CHAchSmallVertFG"			"NotVisible"
-		"CHAchText"					"ColorGreen"
+		"CHAchText"					"NotVisible"
 		"CHMinmodeCircle"				"NotVisible"
 		"CHMinmodeDotBG"				"NotVisible"
 		"CHMinmodeDotFG"				"NotVisible"
@@ -183,8 +157,8 @@ The following constitute all custom crosshair-related pre-overrides:
 		"CHMinmodeSmallVertFG"			"NotVisible"
 		"CHMinmodeText"					"NotVisible"
 		"CHPermaCircle"					"NotVisible"
-		"CHPermaDotBG"				"ColorBlack"
-		"CHPermaDotFG"				"ColorGreen"
+		"CHPermaDotBG"				"NotVisible"
+		"CHPermaDotFG"				"NotVisible"
 		"CHPermaBigHorizBG"			"NotVisible"
 		"CHPermaBigHorizFG"			"NotVisible"
 		"CHPermaBigVertBG"				"NotVisible"
@@ -195,7 +169,7 @@ The following constitute all custom crosshair-related pre-overrides:
 		"CHPermaSmallVertFG"				"NotVisible"
 		"CHPermaText"				"NotVisible"
 }}}
-Text crosshairs only have a single element (outline is always black, entire crosshair is one shape). Dot crosshairs have two elements (foreground dot, which is green by default, and background dot, which forms the outline and generally black). Big and Small crosshairs have four elements: horizontal foreground, vertical foreground, horizontal background, and vertical background. One can decipher these elements within the keywords in the overrides (see "Crosshair Types" above for definitions):
+Text crosshairs only have a single element (outline is always black, entire crosshair is one shape). Dot crosshairs have two elements (foreground dot, which is usually green, and background dot, which forms the outline and is generally black). Big and Small crosshairs have four elements: horizontal foreground, vertical foreground, horizontal background, and vertical background. One can decipher these elements within the keywords in the overrides (see "Crosshair Types" above for definitions):
   * `CH`: Stands for "crosshair". All custom crosshair elements use this prefix.
   * `Ach`: Stands for "achievement tracker". These elements appear while the Achievement tracker is on.
   * `Minmode`: Self-explanatory. These elements appear while minmode is enabled.
@@ -216,11 +190,4 @@ By reading the aforementioned pre-overrides using the above keywords, one can fu
 		"CHMinmodeSmallHorizFG"			"ColorRed"
 		"CHMinmodeSmallVertBG"			"ColorWhite"
 		"CHMinmodeSmallVertFG"			"ColorRed"
-}}}
-
-If you wish to change the colors (or make invisible) the default Achievement Text cross and Permanent Dot crosshairs, start with these override lines, changing the right-hand portion to a different color or simply `"NotVisible"`:
-{{{
-		"CHAchText"				"ColorGreen"
-		"CHPermaDotBG"				"ColorBlack"
-		"CHPermaDotFG"				"ColorGreen"
 }}}
