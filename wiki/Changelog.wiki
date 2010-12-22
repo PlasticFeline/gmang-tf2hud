@@ -4,6 +4,12 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 18b (2010 December 21)====
+If you got everything working, don't bother updating. If the crosshairs are confusing you, go ahead and patch.
+  * Changed custom crosshairs to be disabled by default.
+  * Minor tweaks to ClientScheme.
+  * Added comment to hudlayout for people wanting to track achievements on Engineer.
+
 ====Beta 18 (2010 December 20)====
 Wiki and screenshots are currently getting expanded and udpated.
   * Added options for ClosedCaptions, separating it into FULL (all captions), MEDIC (concise captioning for medics), and LITE (concise captioning for other classes). Added captions for Engineer picking up and dropping buildings. See [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions Closed Captions wiki page].
