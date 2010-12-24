@@ -67,7 +67,7 @@ Also shows basic payload layout.
 ==Medic==
 Top is uncharged Uber. Bottom is activated Uber. Also shows targetID's.
 
-[http://img683.imageshack.us/img683/1020/hudcapmedicfull.png http://img146.imageshack.us/img146/8861/hudcapmedicthumb.png]
+[http://img63.imageshack.us/img63/1020/hudcapmedicfull.png http://img146.imageshack.us/img146/8861/hudcapmedicthumb.png]
 
 [http://img6.imageshack.us/img6/2702/hudcapuberfull.png http://img442.imageshack.us/img442/6887/hudcapuberthumb.png]
 
