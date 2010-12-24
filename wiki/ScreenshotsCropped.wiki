@@ -24,7 +24,7 @@ First is 32p scoreboard, second is 12p scoreboard, third is compact scoreboard. 
 [http://img820.imageshack.us/img820/7761/hudcapscoreboardcompful.png http://img28.imageshack.us/img28/3984/hudcapscoreboardcompthu.png]
 
 ==Spectator View==
-Top is default, box health bars, bottom is fileswap cross health bars.
+Top is default, box health bars; bottom is fileswap cross health bars.
 
 [http://img571.imageshack.us/img571/8122/hudcapspecfull.png http://img522.imageshack.us/img522/2848/hudcapspecthumb.png]
 
