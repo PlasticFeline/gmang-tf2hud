@@ -67,7 +67,7 @@ http://img443.imageshack.us/img443/606/hudcapbuildingsfull.png
 ==Medic==
 Top is uncharged Uber. Bottom is activated Uber. Also shows targetID's.
 
-http://img683.imageshack.us/img683/1020/hudcapmedicfull.png
+http://img63.imageshack.us/img63/1020/hudcapmedicfull.png
 
 http://img6.imageshack.us/img6/2702/hudcapuberfull.png
 
