@@ -18,8 +18,8 @@ Wiki and screenshots are currently getting expanded and udpated.
   * Improved Tiny Uber Text for smoother appearance, added semi-transparent option.
   * Fixed main page displaying usable item icons in the corner.
   * Altered sizing and spacing of some objectives panels.
-  * Added Povo-inspired layout options for health and ammo with corresponding health, uber, and ctf panel options. RIP pvhud. :(
-  * Added Valve-style layout for health and ammo (places them in corners).
+  * Added Povo-inspired layout options for health and ammo with corresponding health, uber, and ctf panel options. RIP pvhud. :( See [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts wiki page].
+  * Added Valve-style layout for health and ammo (places them in corners). See [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts wiki page].
 
 ====Beta 17 (2010 November 1)====
   * Added Achievement-Tracker crosshair (as well as minmode-based and permanent crosshairs); currently in experimental state with only three shapes (+, small +, dot); track an achievement to get the crosshair, find options in ClientScheme overrides, remove with file swap. (Thanks to noid for achievement tracker crosshair idea!)
