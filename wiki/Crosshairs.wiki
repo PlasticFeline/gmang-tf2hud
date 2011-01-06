@@ -21,6 +21,34 @@ There are currently three modes for crosshair display:
   * *Minmode:* The custom crosshair is visible whenever minmode is on (console command `cl_hud_minmode 1`). This allows for scripting a class-specific crosshair even when you can't track any achievements, though it may cause conflicts with scoreboard toggling (you might want to fileswap for a non-changing scoreboard). The crosshair is placed behind all other crosshairs except the Permanent custom crosshair.
   * *Permanent:* The custom crosshair is visible whenever the default Valve HUD would show your class icon (generally at all times while alive and not looking at scoreboard). The crosshair is placed behind all other crosshairs.
 
+= Recommended Crosshairs =
+The two recommended custom crosshairs are the Achievement tracker Text cross Custom crosshair and the Permanent Dot Custom crosshair. To make these easier to enable, they have been provided as Common Overrides. To use these...
+
+ # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
+ # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
+ # Hit Ctrl+F to bring up the search bar and search for `Permanent Dot Crosshair`.
+ # Remove slashes to turn these lines...
+
+{{{
+		//Permanent Dot Crosshair
+		//"CHPermaDotBG"			"ColorBlack"
+		//"CHPermaDotFG"			"ColorGreen"
+
+		//Achievement Tracker Text Crosshair
+		//"CHAchText"			"ColorGreen"
+}}}
+  ... into this:
+
+{{{
+		//Permanent Dot Crosshair
+		"CHPermaDotBG"			"ColorBlack"
+		"CHPermaDotFG"			"ColorGreen"
+
+		//Achievement Tracker Text Crosshair
+		"CHAchText"			"ColorGreen"
+}}}
+Save and restart TF2 if it's currently running.
+
 = Adding Custom Crosshairs =
 Before adding custom crosshairs, any other crosshairs under the same "mode" (see above) should be removed.
 
