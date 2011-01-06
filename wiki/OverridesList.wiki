@@ -60,12 +60,27 @@ Information about each override is written after slashes (`//`) on the same line
 
 == Common Overrides ==
 {{{
-		//Hide Permanent Dot Crosshair
-		//"CHPermaDotBG"			"NotVisible" //Hides outline
-		//"CHPermaDotFG"			"NotVisible" //Hides inner color
+		//Permanent Dot Crosshair
+		"CHPermaDotBG"			"ColorBlack" //Color of permanent dot custom crosshair outline
+		"CHPermaDotFG"			"ColorGreen" //Color of permanent dot custom crosshair center
 
-		//Hide Achievement Tracker Text Crosshair
-		//"CHAchText"			"NotVisible" //Hides entire crosshair
+		//Achievement Tracker Text Crosshair
+		"CHAchText"			"ColorGreen" //Color of achievement tracker text-based cross-shaped custom crosshair
+
+		//Hide Ubercharge Under Crosshair
+		"UberchargeTextTiny"			"NotVisible"
+		"UberchargeTextTinyOutline"		"NotVisible"
+		"UberchargeTextTinyShadow"		"NotVisible"
+		"UberchargeFullTinyText1"	"NotVisible"
+		"UberchargeFullTinyText2"	"NotVisible"
+		"UberchargeFullTinyText3"	"NotVisible"
+		"UberchargeFullTinyText4"	"NotVisible"
+		"UberchargeFullTinyText5"	"NotVisible"
+		"UberchargeFullTinyText6"	"NotVisible"
+
+		//Alternate Player Health Colors
+		"PlayerHPColorSelf"				"ColorWhite"
+		"PlayerHPColorSelfLow"			"ColorVermillion"
 
 		//Yellow Damage Text
 		"DamageTextHit"				"ColorYellow" //Color of damage values that appear above hits
@@ -97,13 +112,13 @@ Information about each override is written after slashes (`//`) on the same line
 		"BonkActiveNotchL"			"NotVisible" //Long notches on active section of bonk meter
 		"BonkActiveNotchS"			"NotVisible" //Short notches on active section of bonk meter
 
-		//Ubercharge Under Crosshair
-		"UberchargeTextTiny"			"ColorWhite" //Small Ubercharge % placed near crosshair
 }}}
 
 == PreOverrides ==
 Using a program like Notepad++, you can search the entirety of your /ui/ folder to find instances of these Preoverrides. If after doing this and reading the full Override Conventions list, you are still confused, leave a comment and I'll add a description to the override.
 {{{
+		//G-Mang HUD PreOverrides
+
 		"ProgressVoid"				"ProgressVoidDefault"
 		
 		"VersionText"				"ColorWhite032"
@@ -126,6 +141,9 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 
 		"PlayerHPBar"				"ColorBlack"
 		"PlayerHPColor"				"HealthGreen"
+		"PlayerHPColorSelf"				"HealthGreen"
+		"PlayerHPColorSelfHigh"			"HealthHigh"
+		"PlayerHPColorSelfLow"			"HealthLow"
 		"PlayerHPColorHigh"			"HealthHigh"
 		"PlayerHPColorLow"			"HealthLow"
 		"PlayerHPGrey"				"NotVisible"
@@ -210,6 +228,7 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"StopWatchPoints"			"ColorStopWatchTint"
 		"StopWatchTime"				"ColorWhite"
 		
+		"CHAchCircle"				"NotVisible"
 		"CHAchDotBG"				"NotVisible"
 		"CHAchDotFG"				"NotVisible"
 		"CHAchBigHorizBG"				"NotVisible"
@@ -220,7 +239,8 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"CHAchSmallHorizFG"			"NotVisible"
 		"CHAchSmallVertBG"			"NotVisible"
 		"CHAchSmallVertFG"			"NotVisible"
-		"CHAchText"					"ColorGreen"
+		"CHAchText"					"NotVisible"
+		"CHMinmodeCircle"				"NotVisible"
 		"CHMinmodeDotBG"				"NotVisible"
 		"CHMinmodeDotFG"				"NotVisible"
 		"CHMinmodeBigHorizBG"				"NotVisible"
@@ -232,8 +252,9 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"CHMinmodeSmallVertBG"			"NotVisible"
 		"CHMinmodeSmallVertFG"			"NotVisible"
 		"CHMinmodeText"					"NotVisible"
-		"CHPermaDotBG"				"ColorBlack"
-		"CHPermaDotFG"				"ColorGreen"
+		"CHPermaCircle"					"NotVisible"
+		"CHPermaDotBG"				"NotVisible"
+		"CHPermaDotFG"				"NotVisible"
 		"CHPermaBigHorizBG"			"NotVisible"
 		"CHPermaBigHorizFG"			"NotVisible"
 		"CHPermaBigVertBG"				"NotVisible"
@@ -370,12 +391,21 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"UberchargeFullText4"		"UberchargeFull"
 		"UberchargeFullText5"		"ColorGreen"
 		"UberchargeFullText6"		"UberchargeFull"
+		"UberchargeFullTextPovo1"		"NotVisible"
+		"UberchargeFullTextPovo2"		"NotVisible"
+		"UberchargeFullTextPovo3"		"NotVisible"
+		"UberchargeFullTextPovo4"		"NotVisible"
+		"UberchargeFullTextPovo5"		"NotVisible"
+		"UberchargeFullTextPovo6"		"NotVisible"
 		"UberchargeNotchB"			"ColorWhite"
 		"UberchargeNotchBB"			"ColorBlack"
 		"UberchargeNotchF"			"ColorBlack143"
 		"UberchargeOutline"			"OutlineDefault"
+		"UberchargeOutlinePovo"			"NotVisible"
 		"UberchargeShadow"			"ShadowDefault"
+		"UberchargeShadowPovo"			"NotVisible"
 		"UberchargeText"			"UberYellow"
+		"UberchargeTextPovo"			"NotVisible"
 		"UberchargeTextTiny"		"UberYellow"
 		"UberchargeTextTinyTrans"	"NotVisible"
 		"UberchargeTextTinyOutline"	"OutlineDefault"
@@ -408,6 +438,4 @@ Using a program like Notepad++, you can search the entirety of your /ui/ folder 
 		"BowChargeVoid"				"ProgressVoidDefault"
 		"BowNotchB"					"BowNotchBDefault"
 		"BowNotchF"					"BowNotchFDefault"
-
-		"DisguisePanelBG"			"DisguisePanelDefault"
 }}}
