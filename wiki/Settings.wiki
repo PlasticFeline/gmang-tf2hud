@@ -3,7 +3,7 @@
 =Introduction=
 There are a variety of ways the HUD can be easily customized to suit your preferences.
 
-For settings related to [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions Closed Captions], [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Custom Crosshairs], [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions Medic Options], see their respective wiki pages.
+For settings related to [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions Closed Captions], [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Custom Crosshairs], [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions Medic Options], [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts] and see their respective wiki pages.
 
 ==Console Commands==
 The HUD has two modes: Match Mode and Pub Mode. Match mode is turned on with the following command:
