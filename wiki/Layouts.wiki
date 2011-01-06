@@ -31,6 +31,8 @@ Players that like the default TF2 HUD can use the Valve-inspired layout. This on
 
 With Povohat's retirement from HUD editing, PVHud users may wish to try a new HUD with a similar appearance. This can be done using G-Mang HUD with an override and three fileswaps.
 
+To perform the override...
+
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
  # Hit Ctrl+F to bring up the search bar and search for `USER-DEFINED`.
