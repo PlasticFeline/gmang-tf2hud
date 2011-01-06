@@ -35,7 +35,8 @@ To perform the override...
 
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
- # Hit Ctrl+F to bring up the search bar and search for `USER-DEFINED`.
+ # Hit Ctrl+F to bring up the search bar and search for `Alternate Player Health Colors
+`.
  # Remove slashes to turn these lines...
 
 {{{
