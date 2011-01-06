@@ -1,0 +1,59 @@
+#summary Instructions for using the Valve- and/or Povo-inspired layouts.
+
+= Introduction =
+
+Though the HUD has a variety of features one might wish to use, it's not designed for parts of it to be copied over to other HUDs. In light of this, layout schemes are provided that may be preferable to players who are used to other HUDs.
+
+Fileswaps and overrides are used to change layouts. Information about these can be found on [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings].
+
+
+= Valve Style =
+
+[http://img89.imageshack.us/img89/8439/hudcapoptionvalvefull.png http://img340.imageshack.us/img340/9902/hudcapoptionvalvethumb.png]
+
+Players that like the default TF2 HUD can use the Valve-inspired layout. This only requires two fileswaps:
+
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Delete the file named *HudPlayerHealth.res*.
+ # Copy the file named *HudPlayerHealth_VALVE.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_VALVE - Copy.res*.
+ # Rename the new file from *HudPlayerHealth_VALVE - Copy.res* to *HudPlayerHealth.res*.
+ # If TF2 is open, enter the command *hud_reloadscheme* into console.
+
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Delete the file named *HudAmmoWeapons.res*.
+ # Copy the file named *HudAmmoWeapons_VALVE.res* and paste it into the same folder. This should create a file called *HudAmmoWeapons_VALVE - Copy.res*.
+ # Rename the new file from *HudAmmoWeapons_VALVE - Copy.res* to *HudAmmoWeapons.res*.
+ # If TF2 is open, enter the command *hud_reloadscheme* into console.
+
+= Povo Style =
+
+[http://img210.imageshack.us/img210/833/hudcapoptionspovofull.png http://img156.imageshack.us/img156/1812/hudcapoptionspovothumb.png]
+
+With Povohat's retirement from HUD editing, PVHud users may wish to try a new HUD with a similar appearance. This can be done using G-Mang HUD with an override and three fileswaps.
+
+The override is as follows:
+{{{
+		//Alternate Player Health Colors
+		"PlayerHPColorSelf"				"ColorWhite"
+		"PlayerHPColorSelfLow"			"ColorVermillion"
+}}}
+
+The fileswaps are as follows:
+
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Delete the file named *HudPlayerHealth.res*.
+ # Copy the file named *HudPlayerHealth_POVO.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_POVO - Copy.res*.
+ # Rename the new file from *HudPlayerHealth_POVO - Copy.res* to *HudPlayerHealth.res*.
+ # If TF2 is open, enter the command *hud_reloadscheme* into console.
+
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Delete the file named *HudAmmoWeapons.res*.
+ # Copy the file named *HudAmmoWeapons_POVO.res* and paste it into the same folder. This should create a file called *HudAmmoWeapons_POVO - Copy.res*.
+ # Rename the new file from *HudAmmoWeapons_POVO - Copy.res* to *HudAmmoWeapons.res*.
+ # If TF2 is open, enter the command *hud_reloadscheme* into console.
+
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Delete the file named *HudObjectiveFlagPanel.res*.
+ # Copy the file named *HudObjectiveFlagPanel_COMPACT.res* and paste it into the same folder. This should create a file called *HudObjectiveFlagPanel_COMPACT - Copy.res*.
+ # Rename the new file from *HudObjectiveFlagPanel_COMPACT - Copy.res* to *HudAmmoWeapons.res*.
+ # If TF2 is open, enter the command *hud_reloadscheme* into console.
