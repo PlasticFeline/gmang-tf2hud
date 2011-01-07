@@ -9,7 +9,7 @@ The HUD comes with a small sampling of custom crosshairs with unique functionali
 
 By default, custom crosshairs are disabled. For those interested in trying them out, _Achievement tracker Text cross_ and the _Permanent Dot_ crosshairs are recommended (provided as Common Overrides).
 
-There are currently four kinds of crosshair shapes that come with the HUD:
+There are currently five kinds of crosshair shapes that come with the HUD:
   * *Text cross:* The text cross is a small, thin plus sign (+). Its foreground color can be customized, but its outline cannot.
   * *Circle:* Also based on text, but shaped like a circle. Its foreground color can be customized, but its outline cannot.
   * *Dot:* The smallest possible outlined crosshair of a 1x1 dot above a 2x2 dot. Both foreground and outline colors can be changed.
