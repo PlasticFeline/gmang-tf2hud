@@ -4,6 +4,14 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 19 (2011 January 19)====
+  * Made minor additions to hudlayout and clientscheme in accordance with update.
+  * Adjusted main menu elements to avoid overlapping the main page buttons with the developer console panel.
+  * Added fileswaps for main menu to correct poor spacing on some resolutions.
+  * Added local idle button (alias CreateIdle "map_background cp_dustbowl").
+  * Fixed some syntax mistakes (closing brackets were missing in some files).
+  * Removed game.ico correction file from HUD contents (apparently Valve switched to the correct one at some point on their own, not sure when).
+
 ====Beta 18b (2010 December 21)====
 If you got everything working, don't bother updating. If the crosshairs are confusing you, go ahead and patch.
   * Changed custom crosshairs to be disabled by default.
