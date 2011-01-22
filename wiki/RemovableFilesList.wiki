@@ -10,7 +10,6 @@ Instead of deleting files, it's recommended that you simply rename them.
  * *Captions:* \resource\closecaption_english.dat
  * *Class Screen:* \resource\ui\Classmenu_blu.res and Classmenu_red.res
  * *Combat Text:* \resource\ui\HudDamageAccount.res
- * *Icon, Game:* \resource\game.ico 
  * *Kill Cam Freeze Panel:* \resource\ui\FreezePanel_Basic.res FreezePanelCallout.res and FreezePanelKillerHealth.res
  * *Main Menu:* \resource\GameMenu.res and \resource\ui\MainMenuOverrides.res
  * *Quickswitch Loadout:* \resource\ui\ItemQuickSwitch.res
