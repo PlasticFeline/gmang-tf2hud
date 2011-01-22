@@ -25,6 +25,8 @@ Players that like the default TF2 HUD can use the Valve-inspired layout. This on
  # Rename the new file from *HudAmmoWeapons_VALVE - Copy.res* to *HudAmmoWeapons.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
+In addition to these, the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Percentage_Placement Valve Alternate Ubercharge Percentage Placement] is recommended.
+
 = Povo Style =
 
 [http://img210.imageshack.us/img210/833/hudcapoptionspovofull.png http://img156.imageshack.us/img156/1812/hudcapoptionspovothumb.png]
@@ -74,4 +76,4 @@ The fileswaps are as follows:
  # Rename the new file from *HudObjectiveFlagPanel_COMPACT - Copy.res* to *HudAmmoWeapons.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
-In addition to these, the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Percentage_Placement Alternate Ubercharge Percentage Placement] is recommended.
+In addition to these, the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Percentage_Placement Povo Alternate Ubercharge Percentage Placement] is recommended.
