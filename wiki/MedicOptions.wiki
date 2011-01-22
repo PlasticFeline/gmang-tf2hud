@@ -248,7 +248,12 @@ If you want Transparent Tiny Ubercharge Text (see above), use the following over
 }}}
 
 == Ubercharge Percentage Placement ==
-If you're using the Povo HUD variant (see [http://code.google.com/p/gmang-tf2hud/wiki/Settings Settings]), you may want to reposition the Ubercharge percentage text's placement on your screen to match the new ammo position. This can be accomplished with an override, _which must be placed *before* any Ubercharge Color overrides in your ClientScheme_.
+[http://img837.imageshack.us/img837/4065/gmanghudcapuberslolfull.png http://img12.imageshack.us/img12/7518/gmanghudcapuberslolthum.png]
+
+If you're using a [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layout variant], you'll probably want to reposition your Ubercharge percentage accordingly. This is done with Overrides _that must be placed *before* any Ubercharge Color overrides in your ClientScheme_ (that is, if you have other Ubercharge overrides, put them after any you use from this section).
+
+=== Povo Placement ==
+This placement is for the Povo-inspired layout, putting the Ubercharge text just to the right of the objectives icons.
 
 The actual override to use depends on which Ubercharge Color you're using. If you're sticking to the default green, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme):
 {{{
@@ -340,4 +345,186 @@ For the Rainbow Ubercharge theme, use the following override (remember, place it
 		"UberchargeOutline"			"NotVisible"
 		"UberchargeShadow"			"NotVisible"
 		"UberchargeText"			"NotVisible"
+}}}
+
+=== Valve Placement ==
+This placement is for the Valve-inspired layout, putting the Ubercharge text at the bottom-right corner of the screen.
+
+The actual override to use depends on which Ubercharge Color you're using. If you're sticking to the default green, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme):
+{{{
+		//Valve Ubercharge Text Placement
+		"UberchargeFullTextValve1"		"ColorGreen"
+		"UberchargeFullTextValve2"		"UberchargeFull"
+		"UberchargeFullTextValve3"		"ColorGreen"
+		"UberchargeFullTextValve4"		"UberchargeFull"
+		"UberchargeFullTextValve5"		"ColorGreen"
+		"UberchargeFullTextValve6"		"UberchargeFull"
+		"UberchargeOutlineValve"			"OutlineDefault"
+		"UberchargeShadowValve"			"ShadowDefault"
+		"UberchargeTextValve"			"UberYellow"
+		"UberchargeFullText1"		"NotVisible"
+		"UberchargeFullText2"		"NotVisible"
+		"UberchargeFullText3"		"NotVisible"
+		"UberchargeFullText4"		"NotVisible"
+		"UberchargeFullText5"		"NotVisible"
+		"UberchargeFullText6"		"NotVisible"
+		"UberchargeOutline"			"NotVisible"
+		"UberchargeShadow"			"NotVisible"
+		"UberchargeText"			"NotVisible"
+}}}
+
+For the Magenta Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme):
+{{{
+		//Valve Ubercharge Text with Magenta Ubercharge
+		"UberchargeFullTextValve1"		"ColorMagenta"
+		"UberchargeFullTextValve2"		"ColorRuby"
+		"UberchargeFullTextValve3"		"ColorMagenta"
+		"UberchargeFullTextValve4"		"ColorRuby"
+		"UberchargeFullTextValve5"		"ColorMagenta"
+		"UberchargeFullTextValve6"		"ColorRuby"
+		"UberchargeOutlineValve"			"OutlineDefault"
+		"UberchargeShadowValve"			"ShadowDefault"
+		"UberchargeTextValve"			"UberYellow"
+		"UberchargeFullText1"		"NotVisible"
+		"UberchargeFullText2"		"NotVisible"
+		"UberchargeFullText3"		"NotVisible"
+		"UberchargeFullText4"		"NotVisible"
+		"UberchargeFullText5"		"NotVisible"
+		"UberchargeFullText6"		"NotVisible"
+		"UberchargeOutline"			"NotVisible"
+		"UberchargeShadow"			"NotVisible"
+		"UberchargeText"			"NotVisible"
+}}}
+
+For the Obnoxious Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme)
+{{{
+		//Valve Ubercharge Text with Obnoxious Ubercharge
+		"UberchargeFullTextValve1"		"ColorMagenta"
+		"UberchargeFullTextValve2"		"ColorGreen"
+		"UberchargeFullTextValve3"		"ColorMagenta"
+		"UberchargeFullTextValve4"		"ColorGreen"
+		"UberchargeFullTextValve5"		"ColorMagenta"
+		"UberchargeFullTextValve6"		"ColorGreen"
+		"UberchargeOutlineValve"			"OutlineDefault"
+		"UberchargeShadowValve"			"ShadowDefault"
+		"UberchargeTextValve"			"UberYellow"
+		"UberchargeFullText1"		"NotVisible"
+		"UberchargeFullText2"		"NotVisible"
+		"UberchargeFullText3"		"NotVisible"
+		"UberchargeFullText4"		"NotVisible"
+		"UberchargeFullText5"		"NotVisible"
+		"UberchargeFullText6"		"NotVisible"
+		"UberchargeOutline"			"NotVisible"
+		"UberchargeShadow"			"NotVisible"
+		"UberchargeText"			"NotVisible"
+}}}
+
+For the Rainbow Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme)
+{{{
+		//Valve Ubercharge Text with Rainbow Ubercharge
+		"UberchargeFullTextValve1"		"ColorGreen"
+		"UberchargeFullTextValve2"		"ColorCyan"
+		"UberchargeFullTextValve3"		"ColorBlue"
+		"UberchargeFullTextValve4"		"ColorMagenta"
+		"UberchargeFullTextValve5"		"ColorRed"
+		"UberchargeFullTextValve6"		"ColorYellow"
+		"UberchargeOutlineValve"			"OutlineDefault"
+		"UberchargeShadowValve"			"ShadowDefault"
+		"UberchargeTextValve"			"UberYellow"
+		"UberchargeFullText1"		"NotVisible"
+		"UberchargeFullText2"		"NotVisible"
+		"UberchargeFullText3"		"NotVisible"
+		"UberchargeFullText4"		"NotVisible"
+		"UberchargeFullText5"		"NotVisible"
+		"UberchargeFullText6"		"NotVisible"
+		"UberchargeOutline"			"NotVisible"
+		"UberchargeShadow"			"NotVisible"
+		"UberchargeText"			"NotVisible"
+}}}
+
+=== Obvious Placement ==
+This placement can be used with any layout, simply providing the Ubercharge percentage to the right of your crosshair.
+
+Before applying this placement, you may or may not want to remove the regular Ubercharge text and/or the Tiny Ubercharge text. The regular text can be removed with the following override:
+{{{
+		//Hide Default Ubercharge Text
+		"UberchargeFullText1"		"NotVisible"
+		"UberchargeFullText2"		"NotVisible"
+		"UberchargeFullText3"		"NotVisible"
+		"UberchargeFullText4"		"NotVisible"
+		"UberchargeFullText5"		"NotVisible"
+		"UberchargeFullText6"		"NotVisible"
+		"UberchargeOutline"			"NotVisible"
+		"UberchargeShadow"			"NotVisible"
+		"UberchargeText"			"NotVisible"
+}}}
+The tiny text can be removed with this override:
+{{{
+		//Hide Tiny Ubercharge Text
+		"UberchargeTextTiny"			"NotVisible"
+		"UberchargeTextTinyOutline"		"NotVisible"
+		"UberchargeTextTinyShadow"		"NotVisible"
+		"UberchargeFullTinyText1"	"NotVisible"
+		"UberchargeFullTinyText2"	"NotVisible"
+		"UberchargeFullTinyText3"	"NotVisible"
+		"UberchargeFullTinyText4"	"NotVisible"
+		"UberchargeFullTinyText5"	"NotVisible"
+		"UberchargeFullTinyText6"	"NotVisible"
+}}}
+
+Once you've removed the default Ubercharge percentage indicators, you can apply the Obvious placement. The actual override to use depends on which Ubercharge Color you're using. If you're sticking to the default green, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme):
+{{{
+		//Obvious Ubercharge Text Placement
+		"UberchargeFullTextObvious1"		"ColorGreen"
+		"UberchargeFullTextObvious2"		"UberchargeFull"
+		"UberchargeFullTextObvious3"		"ColorGreen"
+		"UberchargeFullTextObvious4"		"UberchargeFull"
+		"UberchargeFullTextObvious5"		"ColorGreen"
+		"UberchargeFullTextObvious6"		"UberchargeFull"
+		"UberchargeOutlineObvious"			"OutlineDefault"
+		"UberchargeShadowObvious"			"ShadowDefault"
+		"UberchargeTextObvious"			"UberYellow"
+
+}}}
+
+For the Magenta Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme):
+{{{
+		//Obvious Ubercharge Text with Magenta Ubercharge
+		"UberchargeFullTextObvious1"		"ColorMagenta"
+		"UberchargeFullTextObvious2"		"ColorRuby"
+		"UberchargeFullTextObvious3"		"ColorMagenta"
+		"UberchargeFullTextObvious4"		"ColorRuby"
+		"UberchargeFullTextObvious5"		"ColorMagenta"
+		"UberchargeFullTextObvious6"		"ColorRuby"
+		"UberchargeOutlineObvious"			"OutlineDefault"
+		"UberchargeShadowObvious"			"ShadowDefault"
+		"UberchargeTextObvious"			"UberYellow"
+}}}
+
+For the Obnoxious Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme)
+{{{
+		//Obvious Ubercharge Text with Obnoxious Ubercharge
+		"UberchargeFullTextObvious1"		"ColorMagenta"
+		"UberchargeFullTextObvious2"		"ColorGreen"
+		"UberchargeFullTextObvious3"		"ColorMagenta"
+		"UberchargeFullTextObvious4"		"ColorGreen"
+		"UberchargeFullTextObvious5"		"ColorMagenta"
+		"UberchargeFullTextObvious6"		"ColorGreen"
+		"UberchargeOutlineObvious"			"OutlineDefault"
+		"UberchargeShadowObvious"			"ShadowDefault"
+		"UberchargeTextObvious"			"UberYellow"
+}}}
+
+For the Rainbow Ubercharge theme, use the following override (remember, place it *before* your other Ubercharge Color overrides in ClientScheme)
+{{{
+		//Obvious Ubercharge Text with Rainbow Ubercharge
+		"UberchargeFullTextObvious1"		"ColorGreen"
+		"UberchargeFullTextObvious2"		"ColorCyan"
+		"UberchargeFullTextObvious3"		"ColorBlue"
+		"UberchargeFullTextObvious4"		"ColorMagenta"
+		"UberchargeFullTextObvious5"		"ColorRed"
+		"UberchargeFullTextObvious6"		"ColorYellow"
+		"UberchargeOutlineObvious"			"OutlineDefault"
+		"UberchargeShadowObvious"			"ShadowDefault"
+		"UberchargeTextObvious"			"UberYellow"
 }}}
