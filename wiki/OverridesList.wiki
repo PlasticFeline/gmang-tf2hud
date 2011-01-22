@@ -59,8 +59,11 @@ Descriptions for Preoverrides will be written on a per-request basis, as most of
 Information about each override is written after slashes (`//`) on the same line.
 
 == Common Overrides ==
-{{{
-		//Permanent Dot Crosshair
+{{{//////////////// COMMON OVERRIDES //////////////////
+// simple overrides that can be toggled
+// remove forwardslash pairs before quotations to enable
+	
+	/// PERMANENT DOT CROSSHAIR ////////////////////
 		"CHPermaDotBG"			"ColorBlack" //Color of permanent dot custom crosshair outline
 		"CHPermaDotFG"			"ColorGreen" //Color of permanent dot custom crosshair center
 
