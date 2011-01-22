@@ -51,31 +51,32 @@ ClientScheme Overrides require program restart to take effect.
 If there are any color choices you don't like, or if there are areas of color (such as progress bar notches) you want to hide/show, you can manipulate these elements by adding Overrides to your ClientScheme file.
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
- # Hit Ctrl+F to bring up the search bar and search for `USER-DEFINED`
- # From there, you can either toggle the Common overrides or perform manual overrides.
 Toggling Common overrides:
 
 Toggling Common overrides is the simplest and easiest form of using overrides. All you need to do is delete the `//` in front of a line in order to activate it (or add `//` to deactivate it). For example, if you had a form of color-blindness that made the magenta damage text undesirable, you should remove the `//`'s from the lines under `//Yellow Damage Text`, taking these lines:
 {{{
-		//Yellow Damage Text
-		//"DamageTextHit"				"ColorYellow"
-		//"DamageTextLast"				"ColorYellow"
+/// YELLOW DAMAGE TEXT /////////////////////////
+	//"DamageTextHit"				"ColorYellow"
+	//"DamageTextLast"				"ColorYellow"
 }}}
 and turning then into:
 {{{
-		//Yellow Damage Text
-		"DamageTextHit"				"ColorYellow"
-		"DamageTextLast"				"ColorYellow"
+/// YELLOW DAMAGE TEXT /////////////////////////
+	"DamageTextHit"				"ColorYellow"
+	"DamageTextLast"				"ColorYellow"
 }}}
 If a line does not have quotes, you should not be removing any `//`'s from it. This override, among others, can be seen in [http://img682.imageshack.us/img682/7105/hudscreenoverridefull.png this screenshot].
 
-Manual overrides should be created under the `//USER-DEFINED (save backups!)` line. This should only be done by users with a solid understanding of how TF2 HUD's work. To find a list of properties that can be given overrides, use Ctrl+F to search for the section called `//G-Mang HUD PreOverrides`. Copy and paste lines from this section into your User-Defined section (Cutting or Deleting things from the PreOverrides is discouraged) and edit the second string in the new lines. The following is an example custom override that turns the Ubercharge glow color from bright green to bright red:
+Custom overrides should be created under the `CUSTOM OVERRIDES` header. Users uncomfortable with HUD editing should avoid using Custom Overrides. To find a list of properties that can be given overrides, scroll down to the section called `G-MANG HUD PRE-OVERRIDES`. Copy and paste lines from this section into your `CUSTOM OVERRIDES` section (Cutting or Deleting things from the Pre-Overrides is discouraged) and edit the second string in the new lines. The following is an example custom override that turns damage text orange:
 {{{
-		//USER-DEFINED (save backups!)
-		"UberchargeFullMeter1"			"ColorRed"
-		"UberchargeFullMeter2"			"ColorRuby"
-		"UberchargeFullText1"			"ColorRed"
-		"UberchargeFullText2"			"ColorRuby"
+//////////////// COMMON OVERRIDES //////////////////
+// simple overrides that can be toggled
+// remove forwardslash pairs before quotations to enable
+	
+	//Damage Text Recolor
+	"DamageTextHit"				"ColorOrange"
+	"DamageTextLast"				"ColorOrange"
+	
 }}}
 
 ==File Swaps==
