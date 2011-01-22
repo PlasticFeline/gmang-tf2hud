@@ -59,7 +59,7 @@ Toggling Common overrides is the simplest and easiest form of using overrides. A
 	//"DamageTextHit"				"ColorYellow"
 	//"DamageTextLast"				"ColorYellow"
 }}}
-and turning then into:
+and turning them into:
 {{{
 /// YELLOW DAMAGE TEXT /////////////////////////
 	"DamageTextHit"				"ColorYellow"
