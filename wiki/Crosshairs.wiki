@@ -26,26 +26,25 @@ The two recommended custom crosshairs are the Achievement tracker Text cross Cus
 
  # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
- # Hit Ctrl+F to bring up the search bar and search for `Permanent Dot Crosshair`.
  # Remove slashes to turn these lines...
 
 {{{
-		//Permanent Dot Crosshair
-		//"CHPermaDotBG"			"ColorBlack"
-		//"CHPermaDotFG"			"ColorGreen"
-
-		//Achievement Tracker Text Crosshair
-		//"CHAchText"			"ColorGreen"
+/// PERMANENT DOT CROSSHAIR ////////////////////
+	//"CHPermaDotBG"			"ColorBlack"
+	//"CHPermaDotFG"			"ColorGreen"
+	
+/// ACHIEVEMENT TRACKER TEXT CROSS CROSSHAIR ///
+	//"CHAchText"			"ColorGreen"
 }}}
   ... into this:
 
 {{{
-		//Permanent Dot Crosshair
-		"CHPermaDotBG"			"ColorBlack"
-		"CHPermaDotFG"			"ColorGreen"
-
-		//Achievement Tracker Text Crosshair
-		"CHAchText"			"ColorGreen"
+/// PERMANENT DOT CROSSHAIR ////////////////////
+	"CHPermaDotBG"			"ColorBlack"
+	"CHPermaDotFG"			"ColorGreen"
+	
+/// ACHIEVEMENT TRACKER TEXT CROSS CROSSHAIR ///
+	"CHAchText"			"ColorGreen"
 }}}
 Save and restart TF2 if it's currently running.
 
