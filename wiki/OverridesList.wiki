@@ -68,10 +68,10 @@ Information about each override is written after slashes (`//`) on the same line
 		"CHPermaDotBG"			"ColorBlack" //Color of permanent dot custom crosshair outline
 		"CHPermaDotFG"			"ColorGreen" //Color of permanent dot custom crosshair center
 
-		//Achievement Tracker Text Crosshair
+	/// ACHIEVEMENT TRACKER TEXT CROSS CROSSHAIR ///
 		"CHAchText"			"ColorGreen" //Color of achievement tracker text-based cross-shaped custom crosshair
 
-		//Hide Ubercharge Under Crosshair
+	/// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
 		"UberchargeTextTiny"			"NotVisible"
 		"UberchargeTextTinyOutline"		"NotVisible"
 		"UberchargeTextTinyShadow"		"NotVisible"
@@ -82,15 +82,15 @@ Information about each override is written after slashes (`//`) on the same line
 		"UberchargeFullTinyText5"	"NotVisible"
 		"UberchargeFullTinyText6"	"NotVisible"
 
-		//Alternate Player Health Colors
+	/// ALTERNATE PLAYER HEALTH COLORS /////////////
 		"PlayerHPColorSelf"				"ColorWhite"
 		"PlayerHPColorSelfLow"			"ColorVermillion"
 
-		//Yellow Damage Text
+	/// YELLOW DAMAGE TEXT /////////////////////////
 		"DamageTextHit"				"ColorYellow" //Color of damage values that appear above hits
 		"DamageTextLast"			"ColorYellow" //Color of latest damage dealt written in HUD
 
-		//Hide Targe Indicators
+	/// HIDE TARGE INDICATORS //////////////////////
 		"TargeVoid"				"NotVisible"
 		"TargeNotchF"				"NotVisible" //Notch for Targe minicrit
 		"TargeNotchB"				"NotVisible" //Notch for Targe minicrit
@@ -98,21 +98,21 @@ Information about each override is written after slashes (`//`) on the same line
 		"TargeStickyNotchB"			"NotVisible" //Notch for Targe crit range
 		"StickyVoid"				"ProgressVoid" //Normally unnecessary due to persistence of TargeVoid
 
-		//Increase Sticky Notches
+	/// INCREASE STICKY NOTCHES ////////////////////
 		"StickyNotchExtraF"			"TargeNotchFDefault" //Extra notches
 		"StickyNotchExtraB"			"TargeNotchBDefault" //Extra notches
 
-		//Hide Team Color From PlayerHP
+	/// HIDE TEAM COLOR FROM PLAYER HP /////////////
 		"PlayerHPGrey"				"HPGreyDefault" //Plain color that overlaps HP box edges
 
-		//Hide PlayerHP Outline
+	/// HIDE PLAYER HP OUTLINE /////////////////////
 		"PlayerHPOutline"			"NotVisible"
 
-		//Correct Outline Spacing
+	/// CORRECTIVE OUTLINE SPACING /////////////////
 		"PlayerHPOutlineCorrect"		"OutlineDefault"
 		"AmmoClipOutlineCorrect"		"OutlineDefault"
 		
-		//Hide Bonk Active Notches
+	/// HIDE BONK ACTIVE NOTCHES ///////////////////
 		"BonkActiveNotchL"			"NotVisible" //Long notches on active section of bonk meter
 		"BonkActiveNotchS"			"NotVisible" //Short notches on active section of bonk meter
 
