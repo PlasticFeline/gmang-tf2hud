@@ -41,17 +41,17 @@ To perform the override...
  # Remove slashes to turn these lines...
 
 {{{
-		//Alternate Player Health Colors
-		//"PlayerHPColorSelf"				"ColorWhite"
-		//"PlayerHPColorSelfLow"			"ColorVermillion"
+/// ALTERNATE PLAYER HEALTH COLORS /////////////
+	//"PlayerHPColorSelf"				"ColorWhite"
+	//"PlayerHPColorSelfLow"			"ColorVermillion"
 }}}
 
   ... into this:
 
 {{{
-		//Alternate Player Health Colors
-		"PlayerHPColorSelf"				"ColorWhite"
-		"PlayerHPColorSelfLow"			"ColorVermillion"
+/// ALTERNATE PLAYER HEALTH COLORS /////////////
+	"PlayerHPColorSelf"				"ColorWhite"
+	"PlayerHPColorSelfLow"			"ColorVermillion"
 }}}
 
 Save and quit TF2 if it's running.
