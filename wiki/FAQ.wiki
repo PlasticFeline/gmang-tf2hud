@@ -23,7 +23,7 @@ Also of note: Overrides are used to enable/disable elements, such as [http://cod
 
 = How do I use Overrides? =
 To use Overrides, locate your ClientScheme.res:
- # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
+ # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
 You should see a section for Overrides. As a rule of thumb, lines of text that start with slashes (`//`) are ignored by the game code. If a wiki page tells you to use specific overrides, you can just go ahead and paste them into that section of ClientScheme.res. Whenever you're done editing Overrides, be sure to make a backup copy of them (or your ClientScheme.res file), because the file is frequently replaced in TF2 patches.
 
@@ -49,7 +49,7 @@ More can be learned about Pre-Overrides from here: [http://code.google.com/p/gma
 
 = What are File Swaps? =
 File Swap are alternative HUD files. TF2 only loads HUD files of specific names. By renaming files, you can redirect TF2 to load special options for layouts and functionality. For example, to switch your Health bar from rectangular to cross-shaped...
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_CROSS.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_CROSS - Copy.res*.
  # Rename the new file from *HudPlayerHealth_CROSS - Copy.res* to *HudPlayerHealth.res*.
@@ -70,7 +70,8 @@ Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_
 The Main Menu buttons don't come with functions because they require the user to define their preferences to work (for example, there are no universal "Home Server" bookmarks--people define it individually); additionally, but leaving their functions out of the HUD files, they allow for smoother HUD updates because overriding your HUD files won't override your button commands.
 
 To add functionality to your main menu buttons, locate your autoexec.cfg file...
-
+ # Locate your cfg folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\
+ # Using Notepad, Wordpad, or some other plain text editor, open the file called *autoexec.cfg*. If it does not exist, copy a different .cfg file in the \cfg\ folder, rename the new copy to *autoexec.cfg*, and empty its contents.
 ... and paste into it the following lines...
 {{{
 //Bookmarked Servers
