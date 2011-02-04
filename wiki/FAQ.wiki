@@ -14,7 +14,7 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
   # [#What_are_File_Swaps? What are *File Swaps*?]
   # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the *Main Menu buttons*?]
   # [#How_do_I_use_custom_crosshairs? How do I use *custom crosshairs*?]
-  # [#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
+  # [http://code.google.com/p/gmang-tf2hud/wiki/FAQ#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
   # [#How_do_I_make_my_HUD_layout_look_like_Povo's_late_HUD_or_Valve's_default_HUD? How do I make my HUD layout look like Povo's late HUD or Valve's default HUD?]
   # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize *Closed Captions*?]
   # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize *Scoreboard*?]
