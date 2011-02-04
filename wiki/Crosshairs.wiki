@@ -24,7 +24,7 @@ There are currently three modes for crosshair display:
 = Recommended Crosshairs =
 The two recommended custom crosshairs are the Achievement tracker Text cross Custom crosshair and the Permanent Dot Custom crosshair. To make these easier to enable, they have been provided as Common Overrides. To use these...
 
- # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
+ # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
  # Remove slashes to turn these lines...
 
