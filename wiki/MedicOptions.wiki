@@ -19,7 +19,7 @@ There are three possible placements for the Ubercharge meter. These are...
 == TargetID Name Text Size ==
 
 For Medics, the ability to read the names on TargetID's can be especially important. In order to allow for more legible names, a simple Fileswap is provided. To use it...
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *TargetID.res*.
  # Copy the file named *TargetID_BIG.res* and paste it into the same folder. This should create a file called *TargetID_BIG - Copy.res*.
  # Rename the new file from *TargetID_BIG - Copy.res* to *TargetID.res*.
