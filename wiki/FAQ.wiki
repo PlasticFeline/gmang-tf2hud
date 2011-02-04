@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hopefully, I will make an installer some day. Until then, have a FAQ.
+This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hopefully, I will make an installer some day. Until then, have an FAQ.
 
 = Table of Contents =
   # [#What's_G-Mang_HUD? What's G-Mang HUD?]
