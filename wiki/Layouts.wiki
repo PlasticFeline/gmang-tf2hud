@@ -13,13 +13,13 @@ Fileswaps and overrides are used to change layouts. Information about these can 
 
 Players that like the default TF2 HUD can use the Valve-inspired layout. This only requires two fileswaps:
 
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_VALVE.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_VALVE - Copy.res*.
  # Rename the new file from *HudPlayerHealth_VALVE - Copy.res* to *HudPlayerHealth.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudAmmoWeapons.res*.
  # Copy the file named *HudAmmoWeapons_VALVE.res* and paste it into the same folder. This should create a file called *HudAmmoWeapons_VALVE - Copy.res*.
  # Rename the new file from *HudAmmoWeapons_VALVE - Copy.res* to *HudAmmoWeapons.res*.
@@ -35,7 +35,7 @@ With Povohat's retirement from HUD editing, PVHud users may wish to try a new HU
 
 To perform the override...
 
- # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource
+ # Locate your resource folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource
  # Using Notepad, Wordpad, or some other plain text editor, open the file called *ClientScheme.res*.
  # Hit Ctrl+F to bring up the search bar and search for `Alternate Player Health Colors`.
  # Remove slashes to turn these lines...
@@ -58,19 +58,19 @@ Save and quit TF2 if it's running.
 
 The fileswaps are as follows:
 
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_POVO.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_POVO - Copy.res*.
  # Rename the new file from *HudPlayerHealth_POVO - Copy.res* to *HudPlayerHealth.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudAmmoWeapons.res*.
  # Copy the file named *HudAmmoWeapons_POVO.res* and paste it into the same folder. This should create a file called *HudAmmoWeapons_POVO - Copy.res*.
  # Rename the new file from *HudAmmoWeapons_POVO - Copy.res* to *HudAmmoWeapons.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
- # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\cfg\resource\ui
+ # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudObjectiveFlagPanel.res*.
  # Copy the file named *HudObjectiveFlagPanel_COMPACT.res* and paste it into the same folder. This should create a file called *HudObjectiveFlagPanel_COMPACT - Copy.res*.
  # Rename the new file from *HudObjectiveFlagPanel_COMPACT - Copy.res* to *HudAmmoWeapons.res*.
