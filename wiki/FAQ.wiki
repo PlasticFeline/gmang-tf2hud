@@ -4,6 +4,21 @@
 
 This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hopefully, I will make an installer some day. Until then, have a FAQ.
 
+= Table of Contents =
+  # [#What's_G-Mang_HUD? What's G-Mang HUD?]
+  # [#How_can_I_contact_you? How can I contact you?]
+  # [#What's_an_Override? What's an *Override*?]
+  # [#How_do_I_use_Overrides? How do I use *Overrides*?]
+  # [#What_are_Common_Overrides? What are *Common Overrides*?]
+  # [#What_are_Pre-Overrides? What are *Pre-Overrides*?]
+  # [#What_are_File_Swaps? What are *File Swaps*?]
+  # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the *Main Menu buttons*?]
+  # [#How_do_I_use_custom_crosshairs? How do I use *custom crosshairs*?]
+  # [#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
+  # [#How_do_I_make_my_HUD_layout_look_like_Povo's_late_HUD_or_Valve's_default_HUD? How do I make my HUD layout look like Povo's late HUD or Valve's default HUD?]
+  # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize *Closed Captions*?]
+  # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize *Scoreboard*?]
+
 = What's G-Mang HUD? =
 A weird HUD with lots of functionality. Most text is outlined, lots of bright colors are used, and there are a bunch of supported options.
   * *Wiki:* [http://code.google.com/p/gmang-tf2hud/w/list Articles list]
@@ -58,15 +73,6 @@ File Swaps are alternative HUD files. TF2 only loads HUD files of specific names
 The reverse can be done by using the file called *HudPlayerHealth_BOX.res* instead of *HudPlayerHealth_CROSS.res*.
 Pretty much all File Swaps work exactly that way.
 
-= How do I use custom crosshairs? =
-Learn the basics of [#What_are_Common_Overrides? Overrides] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Crosshairs].
-
-= How can I customize my Medic layout/Ubercharge elements?
-Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions MedicOptions].
-
-= How do I make my HUD layout look like Povo's late HUD or Valve's default HUD? =
-Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts].
-
 = How do I add/customize functionality on the Main Menu buttons? =
 The Main Menu buttons don't come with functions because they require the user to define their preferences to work (for example, there are no universal "Home Server" bookmarks--people define it individually); additionally, but leaving their functions out of the HUD files, they allow for smoother HUD updates because overriding your HUD files won't override your button commands.
 
@@ -97,9 +103,23 @@ ToggleInterfaceMatch
 }}}
 ... then edit it to your heart's content. For more information, see [http://code.google.com/p/gmang-tf2hud/wiki/MainMenu MainMenu].
 
+= How do I use custom crosshairs? =
+Learn the basics of [#What_are_Common_Overrides? Overrides] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Crosshairs Crosshairs].
+
+= How can I customize my Medic layout/Ubercharge elements? =
+Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions MedicOptions].
+
+= How do I make my HUD layout look like Povo's late HUD or Valve's default HUD? =
+Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts].
+
 = How do I toggle/customize Closed Captions? =
 The TF2 console command `closedcaptions "1"` enables Closed Captions; `closedcaptions "0"` disables them. For more information, see [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions ClosedCaptions].
 
 To change to more concise Closed Caption sets, use File Swaps on the .dat files in your /tf/resource/ folder. More information can be found here: [http://code.google.com/p/gmang-tf2hud/wiki/ClosedCaptions ClosedCaptions]
 
 Currently, the source files for Closed Captions aren't public. The main reason I'm doing this is because I want actual feedback on the current Caption sets. Once the HUD comes out of Beta, I will put the source files into the HUD files.
+
+= How do I toggle/customize Scoreboard? =
+When not using minmode, the default scoreboard is designed for 32-player games or smaller. When minmode is on, the scoreboard will switch to a 12-player variant for competitive games. Minmode can be toggled with the console command `cl_hud_minmode "x"`, where `x` is `1` to enable and `0` to disable.
+
+In addition, there are a few [#What_are_File_Swaps? File Swaps] for Scoreboards that allow you to change its functionality. Their names are listed as *Scoreboard__X-Y.res* where *X* is the non-minmode function and *Y* is the minmode function; "COMP" refers to the compact scoreboard that's similar to the 12-player one, but even more concise.
