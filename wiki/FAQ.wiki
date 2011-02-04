@@ -15,7 +15,7 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
   # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the *Main Menu buttons*?]
   # [#How_do_I_use_custom_crosshairs? How do I use *custom crosshairs*?]
   # [http://code.google.com/p/gmang-tf2hud/wiki/FAQ#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
-  # [#How_do_I_make_my_HUD_layout_look_like_Povo's_late_HUD_or_Valve's_default_HUD? How do I make my HUD layout look like Povo's late HUD or Valve's default HUD?]
+  # [#Can_I_change_layouts_to_look_like_Povo's_or_Valve's? Can I change layouts to look like Povo's or Valve's?]
   # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize *Closed Captions*?]
   # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize *Scoreboard*?]
 
@@ -109,7 +109,7 @@ Learn the basics of [#What_are_Common_Overrides? Overrides] and then see [http:/
 = How can I customize my Medic layout/Ubercharge elements? =
 Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions MedicOptions].
 
-= How do I make my HUD layout look like Povo's late HUD or Valve's default HUD? =
+= Can I change layouts to look like Povo's or Valve's? =
 Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts].
 
 = How do I toggle/customize Closed Captions? =
