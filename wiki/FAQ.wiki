@@ -8,7 +8,7 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
 A weird HUD with lots of functionality. Most text is outlined, lots of bright colors are used, and there are a bunch of supported options.
   * *Wiki:* [http://code.google.com/p/gmang-tf2hud/w/list Articles list]
   * *Screenshots:* [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsCropped Cropped] or [http://code.google.com/p/gmang-tf2hud/wiki/ScreenshotsFull Full]
-  * *Patch History:* [http://code.google.com/p/gmang-tf2hud/wiki/Changelog Changelod]
+  * *Patch History:* [http://code.google.com/p/gmang-tf2hud/wiki/Changelog Changelog]
   * *Download:* [http://code.google.com/p/gmang-tf2hud/downloads/list File list]
   * *Steam Group:* [http://steamcommunity.com/groups/gmanghud G-Mang HUD Updates]
 
