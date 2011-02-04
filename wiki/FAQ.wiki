@@ -7,17 +7,17 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
 = Table of Contents =
   # [#What's_G-Mang_HUD? What's G-Mang HUD?]
   # [#How_can_I_contact_you? How can I contact you?]
-  # [#What's_an_Override? What's an *Override*?]
-  # [#How_do_I_use_Overrides? How do I use *Overrides*?]
-  # [#What_are_Common_Overrides? What are *Common Overrides*?]
-  # [#What_are_Pre-Overrides? What are *Pre-Overrides*?]
-  # [#What_are_File_Swaps? What are *File Swaps*?]
-  # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the *Main Menu buttons*?]
-  # [#How_do_I_use_custom_crosshairs? How do I use *custom crosshairs*?]
+  # [#What's_an_Override? What's an Override?]
+  # [#How_do_I_use_Overrides? How do I use Overrides?]
+  # [#What_are_Common_Overrides? What are Common Overrides?]
+  # [#What_are_Pre-Overrides? What are Pre-Overrides?]
+  # [#What_are_File_Swaps? What are File Swaps?]
+  # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the Main Menu buttons?]
+  # [#How_do_I_use_custom_crosshairs? How do I use custom crosshairs?]
   # [http://code.google.com/p/gmang-tf2hud/wiki/FAQ#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
   # [#Can_I_change_layouts_to_look_like_Povo's_or_Valve's? Can I change layouts to look like Povo's or Valve's?]
-  # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize *Closed Captions*?]
-  # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize *Scoreboard*?]
+  # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize Closed Captions?]
+  # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize Scoreboard?]
 
 = What's G-Mang HUD? =
 A weird HUD with lots of functionality. Most text is outlined, lots of bright colors are used, and there are a bunch of supported options.
