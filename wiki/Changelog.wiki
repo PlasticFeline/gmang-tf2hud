@@ -4,6 +4,10 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 21 (2011 February 03)====
+  * Patched files in accordance with latest TF2 update.
+  * Fixed small spacing issue on CP labels.
+
 ====Beta 20 (2011 January 21)====
   * Fixed control point file oversight from latest patch.
   * Altered ClientScheme layout to make editing clearer and easier.
