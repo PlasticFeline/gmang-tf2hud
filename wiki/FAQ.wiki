@@ -49,7 +49,7 @@ Pre-Overrides are just the default overrides; they make up the color palette for
 More can be learned about Pre-Overrides from here: [http://code.google.com/p/gmang-tf2hud/wiki/OverridesList OverridesList]
 
 = What are File Swaps? =
-File Swap are alternative HUD files. TF2 only loads HUD files of specific names. By renaming files, you can redirect TF2 to load special options for layouts and functionality. For example, to switch your Health bar from rectangular to cross-shaped...
+File Swaps are alternative HUD files. TF2 only loads HUD files of specific names. By renaming files, you can redirect TF2 to load special options for layouts and functionality. For example, to switch your Health bar from rectangular to cross-shaped...
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudPlayerHealth.res*.
  # Copy the file named *HudPlayerHealth_CROSS.res* and paste it into the same folder. This should create a file called *HudPlayerHealth_CROSS - Copy.res*.
