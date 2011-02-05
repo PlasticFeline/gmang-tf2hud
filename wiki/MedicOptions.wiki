@@ -30,18 +30,31 @@ The reverse can be done by using the file called *TargetID_SMALL.res* instead of
 
 Because the default Ubercharge notifications are somewhat far into peripheral vision, a tiny indicator of Ubercharge percentage is placed under the crosshair.
 
-Some users may find the Tiny Ubercharge Text distracting or too much an impediment on visibility. In this case, it can be disabled with the following override:
+Some users may find the Tiny Ubercharge Text distracting or too much an impediment on visibility. In this case, it can be disabled with the a common override. In your ClientScheme.res file, fine the following lines...
 {{{
-		//Hide Tiny Ubercharge Text
-		"UberchargeTextTiny"			"NotVisible"
-		"UberchargeTextTinyOutline"		"NotVisible"
-		"UberchargeTextTinyShadow"		"NotVisible"
-		"UberchargeFullTinyText1"	"NotVisible"
-		"UberchargeFullTinyText2"	"NotVisible"
-		"UberchargeFullTinyText3"	"NotVisible"
-		"UberchargeFullTinyText4"	"NotVisible"
-		"UberchargeFullTinyText5"	"NotVisible"
-		"UberchargeFullTinyText6"	"NotVisible"
+/// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
+	//"UberchargeTextTiny"			"NotVisible"
+	//"UberchargeTextTinyOutline"		"NotVisible"
+	//"UberchargeTextTinyShadow"		"NotVisible"
+	//"UberchargeFullTinyText1"	"NotVisible"
+	//"UberchargeFullTinyText2"	"NotVisible"
+	//"UberchargeFullTinyText3"	"NotVisible"
+	//"UberchargeFullTinyText4"	"NotVisible"
+	//"UberchargeFullTinyText5"	"NotVisible"
+	//"UberchargeFullTinyText6"	"NotVisible"
+}}}
+... and delete slashes to turn them into...
+{{{
+/// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
+	"UberchargeTextTiny"			"NotVisible"
+	"UberchargeTextTinyOutline"		"NotVisible"
+	"UberchargeTextTinyShadow"		"NotVisible"
+	"UberchargeFullTinyText1"	"NotVisible"
+	"UberchargeFullTinyText2"	"NotVisible"
+	"UberchargeFullTinyText3"	"NotVisible"
+	"UberchargeFullTinyText4"	"NotVisible"
+	"UberchargeFullTinyText5"	"NotVisible"
+	"UberchargeFullTinyText6"	"NotVisible"
 }}}
 
 Instead of hiding the Tiny Ubercharge Text entirely, it can simply be made transparent, though doing so removes its anti-aliasing (line smoothness). This can be done with the following override (which will disable the default Tiny Text):
