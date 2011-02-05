@@ -4,6 +4,16 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 22 (2011 February 04)====
+[http://code.google.com/p/gmang-tf2hud/wiki/FAQ FAQ] is now up on the wiki. Hopefully it's helpful.
+  * Fixed KOTH timers being hidden after the latest patch.
+  * Changed sizing and spacing of control point icons.
+  * Revised TargetID for improved visibility and cleanliness (old versions still available via File Swap).
+  * Revised disguise panel for improved visibility, cleanliness, and screen space.
+  * Changed targetID/spectator health boxes to make the "box tops" not visible when not being used.
+  * Made the main menu background somewhat less dark.
+  * Added flashing colors to player HP notches based on buff/hurt status.
+
 ====Beta 21 (2011 February 03)====
   * Patched files in accordance with latest TF2 update.
   * Fixed small spacing issue on CP labels.
