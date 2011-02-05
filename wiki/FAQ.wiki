@@ -7,6 +7,7 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
 = Table of Contents =
   # [#What's_G-Mang_HUD? What's G-Mang HUD?]
   # [#How_can_I_contact_you? How can I contact you?]
+  # [#How_do_I_install/update_the_HUD? How do I install/update the HUD?]
   # [#What's_an_Override? What's an Override?]
   # [#How_do_I_use_Overrides? How do I use Overrides?]
   # [#What_are_Common_Overrides? What are Common Overrides?]
@@ -29,6 +30,19 @@ A weird HUD with lots of functionality. Most text is outlined, lots of bright co
 
 = How can I contact you? =
 If you have a question or comment, posting on either the [http://www.gotfrag.com/tf2/forums/thread/428175/ Gotfrag thread] or [http://etf2l.org/forum/general/topic-10210/?recent=274422 ETF2L thread] is a good choice. It lets other people answer the question if I'm busy, gets answers to others who didn't think to ask your question, and gives new forum users a chance to see the HUD. If you'd rather get immediate feedback (particularly if you caught a bug/error in a recent HUD update), you can talk to me on [http://steamcommunity.com/id/g-mang Steam]. Otherwise, just PM me on Gotfrag or ETF2L and I'll respond when I can.
+
+= How do I install/update the HUD? =
+Before installing or updating, you should back up your current HUD. This is easy to do.
+ # Locate your tf folder. It's usually here: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\
+ # Rename your *\resource\* and *\scripts\* folders (if they exist). Something like *\backup-resource\* and *\backup-scripts\* is fine.
+You can then safely install/update to the latest G-Mang HUD by getting the latest download [http://code.google.com/p/gmang-tf2hud/downloads/list here] and performing the following:
+ # Open the ZIP archive containing the HUD.
+ # Within the ZIP archive, open the folder. Within this folder, you should see a *\tf\* folder and *readme.txt*.
+ # Open this *\tf\* folder and copy its *\resource\* and *\scripts\* folders.
+ # Paste into your own *\tf\* folder that you located in step 1.
+ # Restart TF2 if it's current running.
+
+To uninstall the hud, simply rename, move, or delete your *\resource\* and *\scripts\* folders.
 
 = What's an Override? =
 "Overrides" are simply a way to redefine your HUD's color palette in a centralized manner. More specifically, an Override is a custom color definition that is stored in your ClientScheme.res file that overrides a default color definition. Instead of going to files individually to pimp out your HUD, you can just override all the colors you want by defining them in a single file. There are a few advantages to this:
