@@ -9,6 +9,7 @@ Pretty big update; screenshots pending.
   * Removed health notch effect (caused display problems for some users).
   * Added new scoreboard option, "slim".
   * Made changes to compact scoreboard.
+  * Expanded the 32-player scoreboard into a 36-player one.
   * Added overrides for scoreboard visibility options (will add a wiki article about scoreboard options soon). (noid's idea)
   * Created new winpanels that fit between the damage value and crosshair.
   * Added a notice to main menu for when the HUD breaks or is outdated. (broesel's idea)
