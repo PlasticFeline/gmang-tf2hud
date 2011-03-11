@@ -4,6 +4,27 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 23 (2011 March 10)====
+Screenshots pending.
+  * Removed health notch effect (caused display problems for some users).
+  * Added new scoreboard option, "slim".
+  * Made changes to compact scoreboard.
+  * Added overrides for scoreboard visibility options (will add a wiki article about scoreboard options soon). (noid's idea)
+  * Created new winpanels that fit between the damage value and crosshair.
+  * Added a notice to main menu for when the HUD breaks or is outdated. (broesel's idea)
+  * Changed various timer and objective panels to match the rest of the HUD.
+  * Revised quickswitch panel to remove needless information and fit more weapons without scrolling.
+  * Made stopwatch panel really bare-bones and centered.
+  * Changed arena team composition panel to fit between damage value and crosshair.
+  * Customized tournament setup panels to match rest of HUD.
+  * Made the non-minmode spectator screen match the minmode version.
+  * Added a fileswap for spectator tournament player panels to be placed on the upper-screen instead of lower.
+  * Made kill notices smaller and less visible in minmode 0, and more visible in minmode 1. (noid's idea)
+  * Made small spacing corrections to the payload and control point panels.
+  * Repositioned demoman health and sticky indicators to avoid overlapping with control point icons.
+  * Moved health gain animation to upper-center screen to avoid looking weird on different layouts.
+  * Made small correction to HudPlayerHealth that caused improper spacing for notches on some resolutions.
+
 ====Beta 22 (2011 February 04)====
 [http://code.google.com/p/gmang-tf2hud/wiki/FAQ FAQ] is now up on the wiki. Hopefully it's helpful.
   * Fixed KOTH timers being hidden after the latest patch.
