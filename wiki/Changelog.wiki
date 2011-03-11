@@ -5,7 +5,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
 
 ==Beta Version==
 ====Beta 23 (2011 March 10)====
-Screenshots pending.
+Pretty big update; screenshots pending.
   * Removed health notch effect (caused display problems for some users).
   * Added new scoreboard option, "slim".
   * Made changes to compact scoreboard.
