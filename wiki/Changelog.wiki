@@ -4,6 +4,11 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 24 (2011 April 14)====
+Full update required. Unable to do all normal tests due to steam non-connectivity, so a "version b" may be appearing tomorrow.
+  * Patched files in accordance with latest TF2 update.
+  * Added "Ring" and "Rain (plain)" custom crosshairs with accompanying Common Override.
+
 ====Beta 23 (2011 March 10)====
 Pretty big update; screenshots pending.
   * Removed health notch effect (caused display problems for some users).
