@@ -4,6 +4,10 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 24b (2011 May 06)====
+Sorry, I've been having massive computer problems these past few days, so this took longer to release than normal, and it isn't the big patch I've been working on.
+  * Patched files in accordance with latest TF2 update.
+
 ====Beta 24 (2011 April 14)====
 Full update required. Unable to do all normal tests due to steam non-connectivity, so a "version b" may be appearing tomorrow.
   * Patched files in accordance with latest TF2 update.
