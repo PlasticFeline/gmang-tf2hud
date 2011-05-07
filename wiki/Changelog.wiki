@@ -4,6 +4,11 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 24c (2011 May 06)====
+If you plan on rendering and submitting replays, you'll wanna grab this corrected patch. Otherwise, you can just keep using 24b. Apologies for the hectic situation.
+  * Corrected incompatibility with replay editing/rendering panel text.
+  * Added optional main menu fileswap for those who want to have access to the Saxxy buttons and obnoxious applause sounds. ;)
+
 ====Beta 24b (2011 May 06)====
 Sorry, I've been having massive computer problems these past few days, so this took longer to release than normal, and it isn't the big patch I've been working on.
   * Patched files in accordance with latest TF2 update.
