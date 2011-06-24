@@ -4,6 +4,14 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 25 (2011 June 23)====
+Because I don't have the new items (and couldn't even equip them if I did due to the current Steam cloud unavailability), this patch will likely require a followup.
+  * Patched files in accordance with Uber Update (including some main menu revision). New unlock HUD elements are likely to have problems, because I cannot test them at the moment.
+  * Trying a new method for outlining crosshairs (currently just being used on the ring crosshair). If results are good, HUD crosshair and text outlines will get a big upgrade in the future.
+  * Made a custom coach spectator screen.
+  * Slightly adjusted tiny ubercharge text to stay outside of ring crosshair.
+  * Fixed spacing mistake on the 36-12 scoreboard on minmode 0.
+
 ====Beta 24c (2011 May 06)====
 If you plan on rendering and submitting replays, you'll wanna grab this corrected patch. Otherwise, you can just keep using 24b. Apologies for the hectic situation.
   * Corrected incompatibility with replay editing/rendering panel text.
