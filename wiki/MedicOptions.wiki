@@ -30,7 +30,7 @@ The reverse can be done by using the file called *TargetID_SMALL.res* instead of
 
 Because the default Ubercharge notifications are somewhat far into peripheral vision, a tiny indicator of Ubercharge percentage is placed under the crosshair.
 
-Some users may find the Tiny Ubercharge Text distracting or too much an impediment on visibility. In this case, it can be disabled with the a common override. In your ClientScheme.res file, fine the following lines...
+Some users may find the Tiny Ubercharge Text distracting or too much an impediment on visibility. In this case, it can be disabled with a common override. In your ClientScheme.res file, find the following lines...
 {{{
 /// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
 	//"UberchargeTextTiny"			"NotVisible"
