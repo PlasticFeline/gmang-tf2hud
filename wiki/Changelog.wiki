@@ -8,6 +8,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
 Still haven't had the chance to test the new weapons, but I haven't had any reports about them, so I hope they're working!
   * Patched ClientScheme in accordance with latest update.
   * Improved main menu (most notably, fixed those nasty button glitches for notifications).
+  * Released source files for Closed Captions.
 
 ====Beta 25 (2011 June 23)====
 Because I don't have the new items (and couldn't even equip them if I did due to the current Steam cloud unavailability), this patch will likely require a followup.
