@@ -4,6 +4,10 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 27 (2011 October 16)====
+Sorry about the response time. :S In the process of moving!
+  * Patched numerous files in accordance with latest update.
+
 ====Beta 26 (2011 July 07)====
 Still haven't had the chance to test the new weapons, but I haven't had any reports about them, so I hope they're working!
   * Patched ClientScheme in accordance with latest update.
