@@ -73,7 +73,7 @@ The fileswaps are as follows:
  # Locate your ui folder. It should be in this directory: C:\Program Files\Steam\steamapps\YOUR-STEAM-USERNAME\team fortress 2\tf\resource\ui
  # Delete the file named *HudObjectiveFlagPanel.res*.
  # Copy the file named *HudObjectiveFlagPanel_COMPACT.res* and paste it into the same folder. This should create a file called *HudObjectiveFlagPanel_COMPACT - Copy.res*.
- # Rename the new file from *HudObjectiveFlagPanel_COMPACT - Copy.res* to *HudAmmoWeapons.res*.
+ # Rename the new file from *HudObjectiveFlagPanel_COMPACT - Copy.res* to *HudObjectiveFlagPanel.res*.
  # If TF2 is open, enter the command *hud_reloadscheme* into console.
 
 In addition to these, the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Percentage_Placement Povo Alternate Ubercharge Percentage Placement] is recommended.
