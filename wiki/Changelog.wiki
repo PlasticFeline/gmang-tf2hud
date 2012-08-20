@@ -4,6 +4,13 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 29 (2012 August 20)====
+  * Gave proper HUD elements to all weapons.
+  * Fixed main menu buttons having slightly different shades of white.
+  * Fixed "Marked for Death" not appearing above health bar.
+  * Added MvM scoreboard to all existing scoreboards (no user work required).
+  * Made a ton of other adjustments to accommodate MvM content.
+
 ====Beta 28 (2012 May 3)====
 My HUD editing stuff is still on my old computer, so the panels for new weapons aren't in yet. Sorry about that.
   * Patched numerous files in accordance with latest update.
