@@ -8,6 +8,7 @@ Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/lis
   * Gave proper HUD elements to all weapons.
   * Fixed main menu buttons having slightly different shades of white.
   * Fixed "Marked for Death" not appearing above health bar.
+  * Updated Scout drink meter to be based on 8-second duration instead of 6.
   * Added MvM scoreboard to all existing scoreboards (no user work required).
   * Made a ton of other adjustments to accommodate MvM content.
 
