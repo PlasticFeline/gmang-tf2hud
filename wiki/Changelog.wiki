@@ -4,6 +4,9 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 30 (2012 October 27)====
+  * Patched files in accordance with latest TF2 update.
+
 ====Beta 29 (2012 August 20)====
   * Gave proper HUD elements to all weapons.
   * Fixed main menu buttons having slightly different shades of white.
