@@ -70,7 +70,15 @@ Information about each override is written after slashes (`//`) on the same line
 
 	/// ACHIEVEMENT TRACKER TEXT CROSS CROSSHAIR ///
 		"CHAchText"			"ColorGreen" //Color of achievement tracker text-based cross-shaped custom crosshair
-
+				
+	/// PERMANENT RING CROSSHAIR //////////////
+		//"CHPermaRing"			"ColorMagenta096" //Color of permanent ring custom crosshair inner ring
+		//"CHPermaRing2"			"ColorBlack096" //Color of permanent ring custom crosshair outline rings
+				
+	/// REDUCE UBERCHARGE TEXT OUTLINE AND SHADOW //
+		//"UberchargeShadow"		"NotVisible"
+		//"UberchargeOutline"		"NotVisible"
+				
 	/// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
 		"UberchargeTextTiny"			"NotVisible"
 		"UberchargeTextTinyOutline"		"NotVisible"
