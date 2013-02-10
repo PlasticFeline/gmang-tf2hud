@@ -4,6 +4,11 @@
 Patches can be found on the [http://code.google.com/p/gmang-tf2hud/downloads/list Downloads] page.
 
 ==Beta Version==
+====Beta 31 (2013 February 09)====
+  * Patched files in accordance with recent updates
+  * Fixed HUD elements for MvM Heavy Rage Meter and Spy Sapper Meter
+  * Added support for Vaccinator; it's not pretty, see FAQ: http://code.google.com/p/gmang-tf2hud/wiki/FAQ#What%27s_the_deal_with_the_Vaccinator_UI?
+
 ====Beta 30 (2012 October 27)====
   * Patched files in accordance with latest TF2 update.
 
