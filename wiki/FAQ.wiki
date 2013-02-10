@@ -129,10 +129,9 @@ Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_
 = What's the deal with the Vaccinator UI? =
 Vaccinator's UI elements were set up by Valve in ways that don't work well with the HUD. Elements have hard-coded (unmovable) positions relative to other elements, it won't hide extra shadow/outline text (which the hud uses heavily) when ubercharge text needs to be hidden, and the meter doesn't allow for the screen-width sizing like the regular charge meter does.
 
-*Vaccinator users:* To make the UI look better, I recommend switching to a [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Player_Health_Shape Cross or Povo health bar], using the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Placement Bottom or Middle Ubercharge placement], and using the following [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Overrides common overrides]:
+*Vaccinator users:* If the Vaccinator UI is bothering you, I recommend switching to a [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Player_Health_Shape Cross or Povo health bar], using the [http://code.google.com/p/gmang-tf2hud/wiki/MedicOptions#Ubercharge_Placement Bottom or Middle Ubercharge placement], and using the following [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Overrides common overrides]:
   * /// REDUCE UBERCHARGE TEXT OUTLINE AND SHADOW //
   * /// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
-These aren't required to use Vaccinator, of course; all elements are present without changing any of the HUD--it just won't look that good.
 
 = Can I change layouts to look like Povo's or Valve's? =
 Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_Swaps? File Swaps] and then see [http://code.google.com/p/gmang-tf2hud/wiki/Layouts Layouts].
