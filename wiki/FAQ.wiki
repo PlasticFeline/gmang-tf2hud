@@ -16,6 +16,7 @@ This HUD is too complicated, as you can tell by this obnoxiously wordy wiki. Hop
   # [#How_do_I_add/customize_functionality_on_the_Main_Menu_buttons? How do I add/customize functionality on the Main Menu buttons?]
   # [#How_do_I_use_custom_crosshairs? How do I use custom crosshairs?]
   # [http://code.google.com/p/gmang-tf2hud/wiki/FAQ#How_can_I_customize_my_Medic_layout/Ubercharge_elements? How can I customize my Medic layout/Ubercharge elements?]
+  # [#What's_the_deal_with_the_Vaccinator_UI? What's the deal with the Vaccinator UI?]
   # [#Can_I_change_layouts_to_look_like_Povo's_or_Valve's? Can I change layouts to look like Povo's or Valve's?]
   # [#How_do_I_toggle/customize_Closed_Captions? How do I toggle/customize Closed Captions?]
   # [#How_do_I_toggle/customize_Scoreboard? How do I toggle/customize Scoreboard?]
@@ -128,7 +129,7 @@ Learn the basics of [#What_are_Common_Overrides? Overrides] and [#What_are_File_
 = What's the deal with the Vaccinator UI? =
 Vaccinator's UI elements were set up by Valve in ways that don't work well with the HUD. Elements have hard-coded (unmovable) positions, it won't hide extra shadow/outline text (which the hud uses heavily), and the meter doesn't allow for the screen-width setting like the regular charge meter does.
 
-To make it look better, I recommend switching to a [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Player_Health_Shape Cross or Povo health bar] and using the following [http://code.google.com/p/gmang-tf2hud/wiki/Settings#ClientScheme_Overrides common overrides]:
+To make it look better, I recommend switching to a [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Player_Health_Shape Cross or Povo health bar] and using the following [http://code.google.com/p/gmang-tf2hud/wiki/Settings#Overrides common overrides]:
   * /// REDUCE UBERCHARGE TEXT OUTLINE AND SHADOW //
   * /// HIDE TINY UBERCHARGE TEXT UNDER CROSSHAIR //
 
